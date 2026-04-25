@@ -9,7 +9,7 @@
 
 ---
 
-## ✈️ 항공편
+## 항공편
 
 | 구간 | 편명 | 출발 | 도착 | 비고 |
 |------|------|------|------|------|
@@ -21,7 +21,7 @@
 
 ---
 
-## 🌤️ 날씨 (4월 말 도쿄)
+## 날씨 (4월 말 도쿄)
 
 | 항목 | 내용 |
 |------|------|
@@ -31,7 +31,7 @@
 
 ---
 
-## 🚃 교통
+## 교통
 
 ### 나리타 → 호텔 (가는 날)
 
@@ -100,7 +100,7 @@
 
 ### 옵션 B: 에비스 요코초 + 가볍게 여러 곳 🍺
 
-**에비스 요코초 (恵比寿横丁)** — 실내 포장마차촌
+**에비스 요코초 (恵比寿横丁)** — 실내 포장마차촌 (숙소에서 ~25분)
 - 에비스역 앞. 야키토리·가츠오타타키·모츠나베 등 10곳+ 한 곳에
 - 예약 없이 빈 자리 앉으면 됨. 여러 가게 돌며 한 잔씩
 - 고치 스타일 와라야키(짚불구이) 가츠오 타타키도 있음!
@@ -112,9 +112,9 @@
 
 | 스팟 | 특징 | 링크 |
 |------|------|------|
-| **스타벅스 리저브 로스터리** | 나카메구로역 도보 10분. 세계 5번째 로스터리. 4층 전체가 스타벅스 | [구글맵](https://maps.google.com/?q=Starbucks+Reserve+Roastery+Tokyo) |
-| **아후리 (AFURI) 에비스본점** | 에비스역 도보 3분. 유자시오라멘 | [구글맵](https://maps.google.com/?q=AFURI+Ebisu) |
-| **에비스 가든 플레이스** | 에비스역 직결. 에비스 맥주 기념관+야경 | [구글맵](https://maps.google.com/?q=Yebisu+Garden+Place) |
+| **스타벅스 리저브 로스터리** | 나카메구로역 도보 10분 (숙소에서 ~25분). 세계 5번째 로스터리. 4층 전체가 스타벅스 | [구글맵](https://maps.google.com/?q=Starbucks+Reserve+Roastery+Tokyo) |
+| **아후리 (AFURI) 에비스본점** | 에비스역 도보 3분 (숙소에서 ~25분). 유자시오라멘 | [구글맵](https://maps.google.com/?q=AFURI+Ebisu) |
+| **에비스 가든 플레이스** | 에비스역 직결 (숙소에서 ~25분). 에비스 맥주 기념관+야경 | [구글맵](https://maps.google.com/?q=Yebisu+Garden+Place) |
 | **Onibus Coffee** | 나카메구로 고가 밑. 도쿄 3대 스페셜티 커피 | [구글맵](https://maps.google.com/?q=Onibus+Coffee+Nakameguro) |
 
 ---
@@ -131,7 +131,7 @@
 
 ### 🧘 오전 요가 (9:00~10:30)
 
-아래 [요가 스튜디오](#-요가-스튜디오) 참고. 추천: Under the Light or Bodhi Yoga
+아래 [요가 스튜디오](#요가-스튜디오) 참고. 추천: Under the Light or Bodhi Yoga
 
 ### 📍 오모테산도 · 아오야마 (오후)
 
@@ -161,9 +161,9 @@
 
 | 맛집 | 장르 | 특징 | 예약 |
 |------|------|------|------|
-| **SUSHI TOKYO TEN 롯폰기** | 오마카세 | 런치 6,600엔~ / 디너 16,500엔~ | [TableCheck](https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve) |
-| **스시 M (鮨 m)** | 오마카세 | 니시아자부. 디너 20,000엔~ | [TableCheck](https://www.tablecheck.com/en/shops/sushi-m/reserve) |
-| **에비스 요코초** | 이자카야 | 가볍게 여러 가게 돌며 한 잔 | [구글맵](https://maps.google.com/?q=Ebisu+Yokocho) |
+| **SUSHI TOKYO TEN 롯폰기** | 오마카세 | 런치 6,600엔~ / 디너 16,500엔~. 숙소에서 ~35분 | [TableCheck](https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve) |
+| **스시 M (鮨 m)** | 오마카세 | 니시아자부. 디너 20,000엔~. 숙소에서 ~35분 | [TableCheck](https://www.tablecheck.com/en/shops/sushi-m/reserve) |
+| **에비스 요코초** | 이자카야 | 가볍게 여러 가게 돌며 한 잔. 숙소에서 ~25분 | [구글맵](https://maps.google.com/?q=Ebisu+Yokocho) |
 
 ### 📍 주변 가볼만한 곳
 
@@ -171,7 +171,7 @@
 |------|------|------|
 | **네즈 미술관** | 오모테산도 끝자락. 도심 속 일본 정원. 1,300엔 | [구글맵](https://maps.google.com/?q=Nezu+Museum+Tokyo) |
 | **% Arabica 오모테산도** | 교토 발 스페셜티 커피 | [구글맵](https://maps.google.com/?q=%25+Arabica+Omotesando) |
-| **메이지 신궁** | 하라주쿠역 옆 숲속 신사. 무료. 산책+힐링 | [구글맵](https://maps.google.com/?q=Meiji+Shrine+Tokyo) |
+| **메이지 신궁** | 하라주쿠역 옆 숲속 신사 (숙소에서 ~30분). 무료. 산책+힐링 | [구글맵](https://maps.google.com/?q=Meiji+Shrine+Tokyo) |
 | **캣스트리트** | 오모테산도 뒷골목. 빈티지숍, 독립 카페 | [구글맵](https://maps.google.com/?q=Cat+Street+Harajuku) |
 
 ---
@@ -182,8 +182,8 @@
 
 ### 🏃 아침 러닝 or 🏋️ 헬스장 (6:30~8:00)
 
-- **황거(고쿄) 코스** — 오테마치역 10분. 1바퀴 5km. 도쿄 대표 러닝 코스 · [구글맵](https://maps.google.com/?q=Imperial+Palace+Running+Course+Tokyo)
-- **Fitplace24** or **후카가와 스포츠센터** — 아래 [헬스장](#️-헬스장) 참고
+- **황거(고쿄) 코스** — 숙소에서 오테마치역 약 10분. 1바퀴 5km. 도쿄 대표 러닝 코스 · [구글맵](https://maps.google.com/?q=Imperial+Palace+Running+Course+Tokyo)
+- **Fitplace24** or **후카가와 스포츠센터** — 아래 [헬스장](#헬스장) 참고
 
 ### 📍 츠키지 외시장 (9:00~11:00)
 
@@ -209,41 +209,62 @@
 
 | 스팟 | 특징 | 링크 |
 |------|------|------|
-| **츠키지 혼간지** | 츠키지 외시장 바로 옆 인도풍 사원. 무료. 카페 병설 | [구글맵](https://maps.google.com/?q=Tsukiji+Hongwanji+Temple) |
-| **하마리큐 정원** | 츠키지에서 도보 10분. 바다 옆 일본 정원. 300엔. 말차 체험 | [구글맵](https://maps.google.com/?q=Hamarikyu+Gardens+Tokyo) |
-| **도쿄역 라멘 스트리트** | 야에스 지하. 유명 라멘 8개점 | [구글맵](https://maps.google.com/?q=Tokyo+Ramen+Street) |
+| **츠키지 혼간지** | 츠키지 외시장 바로 옆 인도풍 사원 (숙소에서 ~15분). 무료. 카페 병설 | [구글맵](https://maps.google.com/?q=Tsukiji+Hongwanji+Temple) |
+| **하마리큐 정원** | 츠키지에서 도보 10분 (숙소에서 ~20분). 바다 옆 일본 정원. 300엔. 말차 체험 | [구글맵](https://maps.google.com/?q=Hamarikyu+Gardens+Tokyo) |
+| **도쿄역 라멘 스트리트** | 야에스 지하 (숙소에서 ~15분). 유명 라멘 8개점 | [구글맵](https://maps.google.com/?q=Tokyo+Ramen+Street) |
 
 ---
 
-## 🏋️ 헬스장
+## 헬스장
 
-### 1. Fitplace24 (추천 — 블로그 참고)
+### 1. Fitplace24 (LINE 예약, 24시간)
 
-- **특징**: 24시간 무인 헬스장. LINE으로 간편 예약. QR코드 입장
-- **이용료**: **2,178엔** (일일권)
+- **일일권**: 2,178엔. LINE 앱에서 예약 → QR코드 입장
 - **시설**: 웨이트 머신(LEXCO), 프리웨이트, 유산소, 샤워실
-- **예약**: LINE 앱에서 'Fitplace' 검색 → 지점 선택 → 카드 결제
-- **도쿄 지점**: 신주쿠, 시부야, 이케부쿠로, 우에노 등 다수
-- **주의**: QR코드 재입장 1시간 제한 (한 번 들어가서 계속 운동은 OK)
+- **지점**: 신주쿠, 시부야, 이케부쿠로, 우에노 등
+- **주의**: QR코드 재입장 1시간 제한
 - [공식 사이트](https://fitplace24.co.jp/) · [블로그 후기](https://blog.naver.com/kwonbs90/224014564411)
 
-### 2. 후카가와 스포츠센터 (가장 가까움)
+### 2. 후카가와 스포츠센터 (숙소에서 가장 가까움)
 
-- **위치**: 몬젠나카초역 도보 5분 · [구글맵](https://maps.google.com/?q=Fukagawa+Sports+Center+Etchujima)
-- **교통**: 도요초 → 몬젠나카초 (토자이선 2분)
-- **이용료**: **450엔** (1회). 예약 불필요. 당일 발권기 구매
+- **위치**: 몬젠나카초역 도보 5분 (숙소에서 전철 2분) · [구글맵](https://maps.google.com/?q=Fukagawa+Sports+Center+Etchujima)
+- **일일권**: 450엔. 예약 불필요. 당일 발권기 구매
 - **시설**: 트레이닝 룸, 150m 실내 조깅 트랙, 클라이밍 월
 - **시간**: 9:00~21:50
 - [공식 사이트](https://www.koto-hsc.or.jp/sports_center2/)
 
+### 3. Gold's Gym 시부야 (유명 체인)
+
+- **위치**: 시부야역 도보 5분 (숙소에서 약 35분) · [구글맵](https://maps.google.com/?q=Gold's+Gym+Shibuya)
+- **일일권**: 3,900엔. 여권 지참
+- **시설**: 프리미엄 웨이트, 유산소, 샤워. 시설 최상급
+- **시간**: 평일 7:00~23:30 / 주말 9:00~22:00
+- [공식 사이트](https://www.goldsgym.jp/shop/13180)
+
+### 4. TIP.X Tokyo 시부야 (가성비)
+
+- **위치**: 시부야 중심부 (숙소에서 약 35분) · [구글맵](https://maps.google.com/?q=TIP.X+Tokyo+Shibuya)
+- **일일권**: 3,300엔
+- **시설**: 종합 피트니스. 웨이트+유산소+스튜디오
+- **시간**: 평일 7:30~22:00 / 토 10:00~21:00 / 일 10:00~19:00
+- [공식 사이트](https://tip.tipness.co.jp/shop_info/SHP001/)
+
+### 5. Lyft Gym (하라주쿠/오모테산도, 스타일리시)
+
+- **위치**: 하라주쿠/메이지진구마에/오모테산도역 근처 (숙소에서 약 30분) · [구글맵](https://maps.google.com/?q=Lyft+Gym+Harajuku)
+- **위클리 패스**: 22,000엔/주 (위클리만 가능)
+- **시설**: 최신 장비, 쿨한 인테리어. 타투 OK. 영어 가능
+- **시간**: 7:00~23:00
+- [공식 사이트](https://www.lyft-gym.com/en)
+
 ---
 
-## 🧘 요가 스튜디오
+## 요가 스튜디오
 
 ### 1. MINT MAT Yoga Studio (히로오) ⭐ 추천
 
 - **위치**: 시부야구 히로오 5-16-12 Hiroo Five 2F · [구글맵](https://maps.google.com/?q=MINT+MAT+Yoga+Studio+Hiroo)
-- **교통**: 히로오역 도보 5분 (에비스에서 도보 15분)
+- **교통**: 히로오역 도보 5분 (숙소에서 약 30분, 에비스에서 도보 15분)
 - **드롭인**: 3,000엔 (체험 클래스, 매트 렌탈 포함)
 - **영어**: **영어 수업 있음** (Vinyasa Flow Yoga 등). ClassPass 이용 가능
 - **스타일**: 빈야사, 하타, 음요가, 명상. 60~90분 수업
@@ -262,19 +283,19 @@
 ### 3. Bodhi Yoga (오모테산도)
 
 - **위치**: IYC 오모테산도 스튜디오 · [구글맵](https://maps.google.com/?q=IYC+Omotesando+Studio+Jingumae)
-- **교통**: 오모테산도역 도보 5분
+- **교통**: 오모테산도역 도보 5분 (숙소에서 약 25분)
 - **특징**: **영어 수업 있음**. 초보~상급
 - [공식 사이트](https://bodhiyoga.jp)
 
 ### 4. Yoga Tree (히로오)
 
-- **위치**: 히로오역 도보 1분 · [구글맵](https://maps.google.com/?q=Yoga+Tree+Hiroo+Tokyo)
+- **위치**: 히로오역 도보 1분 (숙소에서 약 30분) · [구글맵](https://maps.google.com/?q=Yoga+Tree+Hiroo+Tokyo)
 - **특징**: 드롭인 OK. 멤버십 없음. 영어 가능
 - [공식 사이트](http://www.yogatree.jp)
 
 ### 5. IYC (International Yoga Center)
 
-- **위치**: 오모테산도 등 여러 지점
+- **위치**: 오모테산도 등 여러 지점 (숙소에서 약 25분)
 - **특징**: 다양한 요가 스타일. 영어 가능
 - [공식 사이트](https://iyc.jp/en)
 
@@ -285,7 +306,7 @@
 
 ---
 
-## 🏃 러닝 코스
+## 러닝 코스
 
 ### 코스 1: 도요스 수변 코스 (추천)
 
@@ -300,7 +321,7 @@
 
 ---
 
-## 🍣 오마카세 예약 사이트
+## 오마카세 예약
 
 | 사이트 | 특징 | 링크 |
 |--------|------|------|
@@ -311,7 +332,7 @@
 
 ---
 
-## 🎒 준비물
+## 준비물
 
 | 항목 | 메모 |
 |------|------|
@@ -324,7 +345,7 @@
 
 ---
 
-## ✅ 체크리스트
+## 체크리스트
 
 - [x] ✈️ 비행기
 - [x] 📱 유심
