@@ -91,11 +91,13 @@
 
 | 맛집 | 장르 | 특징 | 링크 |
 |------|------|------|------|
-| **아후리 (AFURI) 에비스본점** | 유자시오라멘 | 맑은 유자 라멘. 에비스역 도보 3분. 본점이라 특별 | [구글맵](https://maps.google.com/?q=AFURI+Ebisu) |
-| **에비스 요코초** | 이자카야 골목 | 에비스역 앞 실내 포장마차촌. 다양한 가게 10곳+ | [구글맵](https://maps.google.com/?q=Ebisu+Yokocho) |
-| **사몬 (茶門)** | 오뎅 | 나카메구로 고가 밑. 정성스러운 오뎅 코스 | [구글맵](https://maps.google.com/?q=Samon+Oden+Nakameguro) |
+| **나카메구로 이구치 (いぐち)** | 야키토리 🔥 | 나카메구로 야키토리 대표. 예약 추천 | [Tabelog 예약](https://tabelog.com/en/tokyo/A1317/A131701/13144198/) · [구글맵](https://maps.google.com/?q=Nakameguro+Iguchi) |
+| **에비스 요코초** | 이자카야 골목 | 실내 포장마차촌. 야키토리·가츠오타타키·덮밥 등 10곳+ | [구글맵](https://maps.google.com/?q=Ebisu+Yokocho) |
+| **아후리 (AFURI) 에비스본점** | 유자시오라멘 | 맑은 유자 라멘. 에비스역 도보 3분 | [구글맵](https://maps.google.com/?q=AFURI+Ebisu) |
+| **야키토리 쇼찬 (しょうちゃん)** | 야키토리 | 에비스 캐주얼 야키토리. 가성비 | [Tabelog](https://tabelog.com/en/tokyo/A1303/A130302/13233221/) |
 
 > 나카메구로 → 에비스는 히비야선 1정거장 (2분)
+> 💡 **에비스 요코초**에서 고치 스타일 가츠오 타타키(와라야키/짚불구이)도 먹을 수 있어요!
 
 ---
 
@@ -135,6 +137,7 @@
 | **bills 오모테산도** | 브런치 | "세계 최고의 아침식사" 리코타 팬케이크 | [구글맵](https://maps.google.com/?q=bills+Omotesando) |
 | **아오야마 카와카미안 (川上庵)** | 소바 | 아오야마 숨은 소바 맛집. 분위기 좋음 | [구글맵](https://maps.google.com/?q=Kawakami-An+Aoyama) |
 | **오모테산도 차차노마** | 일본차+디저트 | 다다미 위에서 말차+화과자. 일본 특색 | [구글맵](https://maps.google.com/?q=Omotesando+Chachanoma) |
+| **규동 (요시노야/마츠야/스키야)** | 소고기 덮밥 | 어디든 있음. 24시간. 400엔대. 러닝 후 가볍게 | — |
 
 ### 📍 저녁 — 오마카세 or 특색 맛집
 
@@ -202,37 +205,45 @@
 
 ## 🧘 요가 스튜디오
 
-### 1. Under the Light Yoga School (추천)
+### 1. MINT MAT Yoga Studio (히로오) ⭐ 추천
+
+- **위치**: 시부야구 히로오 5-16-12 Hiroo Five 2F · [구글맵](https://maps.google.com/?q=MINT+MAT+Yoga+Studio+Hiroo)
+- **교통**: 히로오역 도보 5분 (에비스에서 도보 15분)
+- **드롭인**: 3,000엔 (체험 클래스, 매트 렌탈 포함)
+- **영어**: **영어 수업 있음** (Vinyasa Flow Yoga 등). ClassPass 이용 가능
+- **스타일**: 빈야사, 하타, 음요가, 명상. 60~90분 수업
+- **분위기**: 도심 속 초록에 둘러싸인 조용한 공간. 휴식 컨셉에 딱!
+- [예약](https://mintmat.com/book-a-class) · [공식 사이트](https://mintmat.com)
+
+### 2. Under the Light Yoga School (요요기)
 
 - **위치**: 요요기역 도보 1분 · [구글맵](https://maps.google.com/?q=Under+the+Light+Yoga+School+Yoyogi)
 - **교통**: 도요초 → 요요기역 약 30분
-- **드롭인**: 3,300엔. 예약 불필요 (당일 수업 참가 가능)
+- **드롭인**: 3,300엔. 예약 불필요
 - **영어**: 소통 가능. 수업은 주로 일본어
 - **스타일**: 하타, 빈야사, 음요가 등 다양
 - [예약/스케줄](https://underthelight.jp/pages/english)
 
-### 2. Bodhi Yoga (오모테산도)
+### 3. Bodhi Yoga (오모테산도)
 
-- **위치**: IYC 오모테산도 스튜디오 (진구마에 5-47-3) · [구글맵](https://maps.google.com/?q=IYC+Omotesando+Studio+Jingumae)
+- **위치**: IYC 오모테산도 스튜디오 · [구글맵](https://maps.google.com/?q=IYC+Omotesando+Studio+Jingumae)
 - **교통**: 오모테산도역 도보 5분
-- **특징**: **영어 수업 있음**. 초보~상급 모두 가능
-- **드롭인**: 가능
+- **특징**: **영어 수업 있음**. 초보~상급
 - [공식 사이트](https://bodhiyoga.jp)
 
-### 3. IYC (International Yoga Center)
+### 4. Yoga Tree (히로오)
+
+- **위치**: 히로오역 도보 1분 · [구글맵](https://maps.google.com/?q=Yoga+Tree+Hiroo+Tokyo)
+- **특징**: 드롭인 OK. 멤버십 없음. 영어 가능
+- [공식 사이트](http://www.yogatree.jp)
+
+### 5. IYC (International Yoga Center)
 
 - **위치**: 오모테산도 등 여러 지점
 - **특징**: 다양한 요가 스타일. 영어 가능
 - [공식 사이트](https://iyc.jp/en)
 
-### 4. Yoga Tree (히로오)
-
-- **위치**: 히로오역 도보 1분 · [구글맵](https://maps.google.com/?q=Yoga+Tree+Hiroo+Tokyo)
-- **특징**: 드롭인 OK. 멤버십 없음. 소규모 편안한 분위기
-- **영어**: 가능
-- [공식 사이트](http://www.yogatree.jp)
-
-### 5. 셀프 요가 (무료)
+### 6. 셀프 요가 (무료)
 
 - **장소**: 도요스 공원 잔디밭 (숙소 도보 15분) · [구글맵](https://maps.google.com/?q=Toyosu+Park+Tokyo)
 - **매트**: 다이소 500엔
