@@ -10,13 +10,13 @@
 html{scroll-behavior:smooth;scroll-snap-type:y mandatory;overflow-y:scroll;}
 body{font-family:'Pretendard',sans-serif;background:#0a0a0a;color:#fff;}
 .slide{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:80px 10vw;scroll-snap-align:start;}
-.slide-title{background:linear-gradient(135deg,#0a0a0a 0%,#1a1a2e 100%);text-align:center;}
+.slide-title{background:linear-gradient(135deg,#0a0a0a 0%,#0a1a0f 100%);text-align:center;}
 .slide-title h1{font-size:3.2rem;font-weight:900;line-height:1.3;margin-bottom:24px;}
-.slide-title h1 span{color:#f43f5e;}
+.slide-title h1 span{color:#22c55e;}
 .slide-title p{font-size:1.2rem;color:#888;}
-.sec-label{font-size:.75rem;font-weight:700;color:#f43f5e;letter-spacing:3px;text-transform:uppercase;margin-bottom:24px;}
+.sec-label{font-size:.75rem;font-weight:700;color:#22c55e;letter-spacing:3px;text-transform:uppercase;margin-bottom:24px;}
 .sub{font-size:1.8rem;font-weight:800;line-height:1.4;margin-bottom:32px;}
-.sub span{color:#f43f5e;}
+.sub span{color:#22c55e;}
 .body-text{font-size:1.05rem;color:#999;line-height:1.8;max-width:680px;margin-bottom:24px;}
 .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-bottom:32px;max-width:900px;}
 .card{background:#141414;border-radius:16px;padding:28px 24px;border:1px solid #222;}
@@ -24,24 +24,24 @@ body{font-family:'Pretendard',sans-serif;background:#0a0a0a;color:#fff;}
 .card .emoji{margin-right:6px;}
 .card p,.card li{font-size:.95rem;color:#999;line-height:1.7;}
 .card ul{list-style:none;padding:0;}
-.card ul li::before{content:'· ';color:#f43f5e;font-weight:700;}
-.card .tag{display:inline-block;background:#f43f5e22;color:#f43f5e;font-size:.75rem;font-weight:600;padding:3px 10px;border-radius:20px;margin-bottom:10px;}
-.card a{color:#f43f5e;text-decoration:none;font-size:.85rem;}
+.card ul li::before{content:'· ';color:#22c55e;font-weight:700;}
+.card .tag{display:inline-block;background:#22c55e22;color:#22c55e;font-size:.75rem;font-weight:600;padding:3px 10px;border-radius:20px;margin-bottom:10px;}
+.card a{color:#22c55e;text-decoration:none;font-size:.85rem;}
 .card a:hover{text-decoration:underline;}
 table{border-collapse:collapse;width:100%;max-width:900px;margin-bottom:24px;}
 th,td{text-align:left;padding:12px 16px;font-size:.95rem;border-bottom:1px solid #222;}
-th{color:#f43f5e;font-weight:700;font-size:.8rem;letter-spacing:1px;text-transform:uppercase;}
+th{color:#22c55e;font-weight:700;font-size:.8rem;letter-spacing:1px;text-transform:uppercase;}
 td{color:#bbb;}
-td a{color:#f43f5e;text-decoration:none;}
+td a{color:#22c55e;text-decoration:none;}
 td a:hover{text-decoration:underline;}
 .nav{position:fixed;right:24px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:8px;z-index:99;}
 .nav a{width:10px;height:10px;border-radius:50%;background:#333;display:block;transition:.2s;}
-.nav a.active,.nav a:hover{background:#f43f5e;transform:scale(1.3);}
-.warn{background:#f43f5e15;border:1px solid #f43f5e33;border-radius:12px;padding:16px 20px;margin-bottom:24px;max-width:680px;}
-.warn p{color:#f43f5e;font-size:.95rem;font-weight:500;}
+.nav a.active,.nav a:hover{background:#22c55e;transform:scale(1.3);}
+.warn{background:#22c55e15;border:1px solid #22c55e33;border-radius:12px;padding:16px 20px;margin-bottom:24px;max-width:680px;}
+.warn p{color:#22c55e;font-size:.95rem;font-weight:500;}
 .checklist{list-style:none;padding:0;max-width:500px;}
 .checklist li{padding:8px 0;font-size:1rem;color:#bbb;border-bottom:1px solid #1a1a1a;}
-.checklist li::before{content:'☐ ';color:#f43f5e;font-weight:700;}
+.checklist li::before{content:'☐ ';color:#22c55e;font-weight:700;}
 .checklist li.done::before{content:'☑ ';color:#4ade80;}
 .checklist li.done{color:#666;text-decoration:line-through;}
 @media(max-width:600px){
@@ -61,7 +61,7 @@ td a:hover{text-decoration:underline;}
 <section class="slide slide-title" id="s0">
   <h1>🇯🇵 도쿄 <span>2박 3일</span></h1>
   <p>2026. 04. 29 (수) — 05. 01 (금)</p>
-  <p style="margin-top:12px;color:#666;">호텔 이스트21 · with 다빈</p>
+  <p style="margin-top:12px;color:#666;">호텔 이스트21 · 다빈 & 다은</p>
   <p style="margin-top:8px;color:#555;font-size:.95rem;">🏃 러닝 & 🧘 요가 & 😌 휴식</p>
   <p style="margin-top:20px;color:#555;font-size:.85rem;">🌤️ 낮 17~23°C / 밤 10~15°C · 겉옷 필수</p>
 </section>
@@ -84,7 +84,7 @@ td a:hover{text-decoration:underline;}
         <li>T-CAT에서 택시 10분(~1,000엔) → 호텔</li>
         <li>짐 있을 때 환승 없이 가장 편함!</li>
       </ul>
-      <a href="https://webservice.limousinebus.co.jp/web/en/" target="_blank" style="color:#f43f5e;">🔗 리무진 예약</a> · <a href="https://www.klook.com/en-US/activity/2274-narita-haneda-airport-limousine-bus-tokyo/" target="_blank" style="color:#f43f5e;">🔗 Klook</a>
+      <a href="https://webservice.limousinebus.co.jp/web/en/" target="_blank" style="color:#22c55e;">🔗 리무진 예약</a> · <a href="https://www.klook.com/en-US/activity/2274-narita-haneda-airport-limousine-bus-tokyo/" target="_blank" style="color:#22c55e;">🔗 Klook</a>
     </div>
     <div class="card"><h4>🎫 교통 팁</h4>
       <ul><li>Welcome Suica Mobile — 한국에서 미리 설치</li><li>메트로 24시간권 600엔</li><li>호텔 셔틀 무료 (시간표 확인)</li></ul>
@@ -118,14 +118,14 @@ td a:hover{text-decoration:underline;}
       <a href="https://maps.google.com/?q=Daikanyama+T-Site" target="_blank">📍 구글맵</a>
     </div>
     <div class="card">
-      <h4><span class="emoji">🍽️</span>저녁</h4>
+      <h4><span class="emoji">🍽️</span>저녁 (옵션 2개)</h4>
       <ul>
-        <li><strong>나카메구로 이구치 (いぐち)</strong> — 야키토리 대표 🔥 예약 추천</li>
-        <li><strong>에비스 요코초</strong> — 포장마차촌. 야키토리·가츠오타타키·덮밥</li>
-        <li><strong>아후리 (AFURI) 에비스본점</strong> — 유자시오라멘 🍜</li>
-        <li><strong>야키토리 쇼찬</strong> — 에비스 캐주얼 야키토리</li>
+        <li><strong>A. 혼다상점 (本田商店)</strong> — 야키토리+솥밥. 한국 블로거 추천 1위 🔥</li>
+        <li>닭꼬치 모듬 1,180엔 / 술 무제한 2,480엔</li>
+        <li><strong>B. 에비스 요코초</strong> — 포장마차촌. 여러 가게 돌며 한 잔</li>
+        <li>가츠오타타키·야키토리·모츠나베 등</li>
       </ul>
-      <a href="https://tabelog.com/en/tokyo/A1317/A131701/13144198/" target="_blank">🔗 이구치 예약</a> · <a href="https://maps.google.com/?q=Ebisu+Yokocho" target="_blank">📍 에비스요코초</a>
+      <a href="https://maps.google.com/?q=本田商店+中目黒" target="_blank">📍 혼다상점</a> · <a href="https://maps.google.com/?q=Ebisu+Yokocho" target="_blank">📍 에비스요코초</a>
     </div>
   </div>
 </section>
@@ -351,7 +351,7 @@ td a:hover{text-decoration:underline;}
     <li>💴 현금 준비 (1~2만엔)</li>
     <li>👟 러닝화 + 겉옷 + 우산</li>
   </ul>
-  <p style="margin-top:48px;color:#444;font-size:.85rem;">🇯🇵 즐거운 여행 되세요! — soddy & 다빈</p>
+  <p style="margin-top:48px;color:#444;font-size:.85rem;">🇯🇵 즐거운 여행 되세요! — 다빈 & 다은</p>
 </section>
 
 <script>
