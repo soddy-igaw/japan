@@ -108,6 +108,15 @@
 
 > 나카메구로 → 에비스는 히비야선 1정거장 (2분)
 
+### 📍 주변 가볼만한 곳
+
+| 스팟 | 특징 | 링크 |
+|------|------|------|
+| **스타벅스 리저브 로스터리** | 나카메구로역 도보 10분. 세계 5번째 로스터리. 4층 전체가 스타벅스 | [구글맵](https://maps.google.com/?q=Starbucks+Reserve+Roastery+Tokyo) |
+| **아후리 (AFURI) 에비스본점** | 에비스역 도보 3분. 유자시오라멘 | [구글맵](https://maps.google.com/?q=AFURI+Ebisu) |
+| **에비스 가든 플레이스** | 에비스역 직결. 에비스 맥주 기념관+야경 | [구글맵](https://maps.google.com/?q=Yebisu+Garden+Place) |
+| **Onibus Coffee** | 나카메구로 고가 밑. 도쿄 3대 스페셜티 커피 | [구글맵](https://maps.google.com/?q=Onibus+Coffee+Nakameguro) |
+
 ---
 
 ## Day 2 (4/30 목) — 러닝 & 요가 + 오모테산도 · 여유
@@ -156,6 +165,15 @@
 | **스시 M (鮨 m)** | 오마카세 | 니시아자부. 디너 20,000엔~ | [TableCheck](https://www.tablecheck.com/en/shops/sushi-m/reserve) |
 | **에비스 요코초** | 이자카야 | 가볍게 여러 가게 돌며 한 잔 | [구글맵](https://maps.google.com/?q=Ebisu+Yokocho) |
 
+### 📍 주변 가볼만한 곳
+
+| 스팟 | 특징 | 링크 |
+|------|------|------|
+| **네즈 미술관** | 오모테산도 끝자락. 도심 속 일본 정원. 1,300엔 | [구글맵](https://maps.google.com/?q=Nezu+Museum+Tokyo) |
+| **% Arabica 오모테산도** | 교토 발 스페셜티 커피 | [구글맵](https://maps.google.com/?q=%25+Arabica+Omotesando) |
+| **메이지 신궁** | 하라주쿠역 옆 숲속 신사. 무료. 산책+힐링 | [구글맵](https://maps.google.com/?q=Meiji+Shrine+Tokyo) |
+| **캣스트리트** | 오모테산도 뒷골목. 빈티지숍, 독립 카페 | [구글맵](https://maps.google.com/?q=Cat+Street+Harajuku) |
+
 ---
 
 ## Day 3 (5/1 금) — 아침 운동 + 츠키지 + 공항
@@ -186,6 +204,14 @@
 - 시간 여유 있으면 **라멘 스트리트** 한 그릇
 
 ### 13:30 호텔 출발 → 나리타
+
+### 📍 주변 가볼만한 곳
+
+| 스팟 | 특징 | 링크 |
+|------|------|------|
+| **츠키지 혼간지** | 츠키지 외시장 바로 옆 인도풍 사원. 무료. 카페 병설 | [구글맵](https://maps.google.com/?q=Tsukiji+Hongwanji+Temple) |
+| **하마리큐 정원** | 츠키지에서 도보 10분. 바다 옆 일본 정원. 300엔. 말차 체험 | [구글맵](https://maps.google.com/?q=Hamarikyu+Gardens+Tokyo) |
+| **도쿄역 라멘 스트리트** | 야에스 지하. 유명 라멘 8개점 | [구글맵](https://maps.google.com/?q=Tokyo+Ramen+Street) |
 
 ---
 
