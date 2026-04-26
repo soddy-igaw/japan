@@ -3,467 +3,376 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🇯🇵 도쿄 3박 4일</title>
+<title>다은 다빈 도쿄 여행기</title>
 <style>
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-*{margin:0;padding:0;box-sizing:border-box;}
-html{scroll-behavior:smooth;scroll-snap-type:y mandatory;overflow-y:scroll;}
-body{font-family:'Pretendard',sans-serif;background:#fff;color:#1a1a1a;}
-.slide{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:80px 10vw;scroll-snap-align:start;}
-.slide-title{background:#f8faf8;text-align:center;}
-.slide-title h1{font-size:3.2rem;font-weight:900;line-height:1.3;margin-bottom:24px;color:#1a1a1a;}
-.slide-title h1 span{color:#16a34a;}
-.slide-title p{font-size:1.2rem;color:#888;}
-.sec-label{font-size:.75rem;font-weight:700;color:#16a34a;letter-spacing:3px;text-transform:uppercase;margin-bottom:24px;}
-.sub{font-size:1.8rem;font-weight:800;line-height:1.4;margin-bottom:32px;color:#1a1a1a;}
-.sub span{color:#16a34a;}
-.body-text{font-size:1.05rem;color:#666;line-height:1.8;max-width:680px;margin-bottom:24px;}
-.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-bottom:32px;max-width:900px;}
-.card{background:#f9fafb;border-radius:12px;padding:24px 20px;border:1px solid #e5e7eb;}
-.card h4{font-size:1.05rem;font-weight:700;margin-bottom:8px;color:#1a1a1a;}
-.card p,.card li{font-size:.93rem;color:#555;line-height:1.7;}
-.card ul{list-style:none;padding:0;}
-.card ul li::before{content:'· ';color:#16a34a;font-weight:700;}
-.card .tag{display:inline-block;background:#dcfce7;color:#15803d;font-size:.75rem;font-weight:600;padding:3px 10px;border-radius:20px;margin-bottom:10px;}
-.card a{color:#16a34a;text-decoration:none;font-size:.85rem;}
-.card a:hover{text-decoration:underline;}
-table{border-collapse:collapse;width:100%;max-width:900px;margin-bottom:24px;}
-th,td{text-align:left;padding:12px 16px;font-size:.93rem;border-bottom:1px solid #e5e7eb;}
-th{color:#15803d;font-weight:700;font-size:.8rem;letter-spacing:1px;text-transform:uppercase;}
-td{color:#555;}
-td a{color:#16a34a;text-decoration:none;}
-td a:hover{text-decoration:underline;}
-.nav{position:fixed;right:24px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:8px;z-index:99;}
-.nav a{width:10px;height:10px;border-radius:50%;background:#d1d5db;display:block;transition:.2s;}
-.nav a.active,.nav a:hover{background:#16a34a;transform:scale(1.3);}
-.warn{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:16px 20px;margin-bottom:24px;max-width:680px;}
-.warn p{color:#15803d;font-size:.95rem;font-weight:500;}
-.checklist{list-style:none;padding:0;max-width:500px;}
-.checklist li{padding:8px 0;font-size:1rem;color:#555;border-bottom:1px solid #f3f4f6;}
-.checklist li::before{content:'☐ ';color:#16a34a;font-weight:700;}
-.checklist li.done::before{content:'☑ ';color:#16a34a;}
-.checklist li.done{color:#aaa;text-decoration:line-through;}
-@media(max-width:600px){
-  .slide{padding:60px 6vw;}
-  .slide-title h1{font-size:2rem;}
-  .sub{font-size:1.3rem;}
-  .card-grid{grid-template-columns:1fr;}
-  table{font-size:.85rem;}
-  th,td{padding:8px 10px;}
-}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-snap-type:y mandatory;overflow-y:scroll}
+body{font-family:'Pretendard',sans-serif;background:#fff;color:#1a1a1a}
+.s{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:72px 8vw;scroll-snap-align:start}
+.cover{background:#f8faf8;text-align:center}
+.cover h1{font-size:2.8rem;font-weight:900;line-height:1.3;margin-bottom:16px}
+.cover h1 b{color:#16a34a}
+.cover p{font-size:1.1rem;color:#888}
+.label{font-size:.7rem;font-weight:700;color:#16a34a;letter-spacing:3px;text-transform:uppercase;margin-bottom:20px}
+h2{font-size:1.6rem;font-weight:800;margin-bottom:24px;color:#1a1a1a}
+h2 b{color:#16a34a}
+.t{font-size:.98rem;color:#666;line-height:1.8;max-width:640px;margin-bottom:20px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-bottom:24px;max-width:860px}
+.c{background:#f9fafb;border-radius:10px;padding:20px 18px;border:1px solid #e5e7eb}
+.c h4{font-size:1rem;font-weight:700;margin-bottom:6px}
+.c li{font-size:.9rem;color:#555;line-height:1.7}
+.c ul{list-style:none;padding:0}
+.c ul li::before{content:'· ';color:#16a34a;font-weight:700}
+.c .tag{display:inline-block;background:#dcfce7;color:#15803d;font-size:.7rem;font-weight:600;padding:2px 8px;border-radius:16px;margin-bottom:8px}
+.c a{color:#16a34a;text-decoration:none;font-size:.82rem}
+.c a:hover{text-decoration:underline}
+table{border-collapse:collapse;width:100%;max-width:860px;margin-bottom:20px}
+th,td{text-align:left;padding:10px 14px;font-size:.9rem;border-bottom:1px solid #e5e7eb}
+th{color:#15803d;font-weight:700;font-size:.75rem;letter-spacing:1px;text-transform:uppercase}
+td{color:#555}
+td a{color:#16a34a;text-decoration:none}
+.tip{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:14px 18px;margin-bottom:20px;max-width:640px}
+.tip p{color:#15803d;font-size:.9rem}
+.nav{position:fixed;right:20px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:6px;z-index:99}
+.nav a{width:8px;height:8px;border-radius:50%;background:#d1d5db;display:block;transition:.2s}
+.nav a.active,.nav a:hover{background:#16a34a;transform:scale(1.4)}
+.or{color:#888;font-size:.85rem;text-align:center;padding:8px 0;font-weight:600}
+@media(max-width:600px){.s{padding:56px 6vw}.cover h1{font-size:2rem}h2{font-size:1.3rem}.g{grid-template-columns:1fr}table{font-size:.82rem}th,td{padding:8px}}
 </style>
 </head>
 <body>
 <nav class="nav" id="nav"></nav>
 
-<!-- COVER -->
-<section class="slide slide-title" id="s0">
-  <h1>🇯🇵 도쿄 <span>3박 4일</span></h1>
-  <p>2026. 04. 29 (수) — 05. 02 (토)</p>
-  <p style="margin-top:12px;color:#666;">호텔 이스트21 · 다은 & 다빈</p>
-  <p style="margin-top:8px;color:#555;font-size:.95rem;">러닝 · 요가 · 휴식</p>
-  <p style="margin-top:20px;color:#555;font-size:.85rem;">🌤️ 낮 17~23°C / 밤 10~15°C · 겉옷 필수</p>
+<section class="s cover" id="s0">
+<h1>다은 다빈<br><b>도쿄 여행기</b></h1>
+<p>2026. 04. 29 — 05. 02</p>
+<p style="margin-top:10px;color:#aaa;font-size:.9rem">호텔 이스트21 · 3박 4일</p>
+<p style="margin-top:6px;color:#bbb;font-size:.82rem">낮 17~23°C / 밤 10~15°C · 겉옷 필수</p>
 </section>
 
-<!-- FLIGHT -->
-<section class="slide" id="s1">
-  <div class="sec-label">Flight & Transport</div>
-  <div class="sub"><span>항공편 ✈️ <span>항공편 & 교통</span> 교통</span></div>
-  <table>
-    <tr><th>구간</th><th>편명</th><th>출발</th><th>도착</th></tr>
-    <tr><td>가는편</td><td>제주항공 7C1175</td><td>4/29 09:45 ICN</td><td>4/29 12:15 NRT</td></tr>
-    <tr><td>오는편</td><td>제주항공 7C1172</td><td>5/2 17:15 NRT</td><td>5/2 20:10 ICN</td></tr>
-  </table>
-  <p class="body-text" style="color:#aaa;font-size:.85rem;">예약번호: KYHYNM · 무료 수하물 15kg</p>
-  <div class="warn"><p>⏰ 5/2 귀국일: 13:30 호텔 출발 → 15:15 나리타 → 17:15 출발</p></div>
-  <div class="card-grid">
-    <div class="card"><h4>⭐ 나리타 → 호텔 (추천)</h4>
-      <ul>
-        <li><strong>리무진버스 → T-CAT</strong> ~55분 / 3,100엔</li>
-        <li>T-CAT에서 택시 10분(~1,000엔) → 호텔</li>
-        <li>짐 있을 때 환승 없이 가장 편함!</li>
-      </ul>
-      <a href="https://webservice.limousinebus.co.jp/web/en/" target="_blank" style="color:#22c55e;">리무진 예약</a> · <a href="https://www.klook.com/en-US/activity/2274-narita-haneda-airport-limousine-bus-tokyo/" target="_blank" style="color:#22c55e;">Klook</a>
-    </div>
-    <div class="card"><h4>🎫 교통 팁</h4>
-      <ul><li>Welcome Suica Mobile — 한국에서 미리 설치</li><li>메트로 24시간권 600엔</li><li>호텔 셔틀 무료 (시간표 확인)</li></ul>
-    </div>
-  </div>
+<section class="s" id="s1">
+<div class="label">Flight</div>
+<h2>항공편 & <b>공항 가이드</b></h2>
+<table>
+<tr><th>구간</th><th>편명</th><th>출발</th><th>도착</th></tr>
+<tr><td>가는편</td><td>7C1175</td><td>4/29 09:45 ICN</td><td>12:15 NRT</td></tr>
+<tr><td>오는편</td><td>7C1172</td><td>5/2 17:15 NRT</td><td>20:10 ICN</td></tr>
+</table>
+<p class="t" style="font-size:.82rem;color:#999">예약번호 KYHYNM · 무료 수하물 15kg</p>
+<div class="tip"><p>나리타 도착 후 할 일</p></div>
+<div class="g">
+<div class="c">
+<h4>1. 입국심사 + 짐 찾기</h4>
+<ul><li>12:15 착륙 → 입국심사 30~50분 (골든위크)</li><li>13:00~13:20쯤 짐 수령 완료 예상</li></ul>
+</div>
+<div class="c">
+<h4>2. 리무진버스 → T-CAT</h4>
+<ul>
+<li>도착층 나오면 바로 리무진버스 카운터</li>
+<li>"T-CAT" 말하고 현장 구매 (3,100엔)</li>
+<li>약 30분~1시간 간격 운행. 매진 걱정 없음</li>
+<li>약 55분 → T-CAT 도착</li>
+</ul>
+</div>
+<div class="c">
+<h4>3. T-CAT → 호텔</h4>
+<ul>
+<li>택시 10분 (~1,000엔) 가장 편함</li>
+<li>또는 스이텐구마에역 → 도요초역 (전철)</li>
+<li>호텔 도착 예상: 오후 3시~3시 반</li>
+</ul>
+</div>
+</div>
+<div class="tip"><p>귀국일 (5/2): 13:30 호텔 출발 → T-CAT 리무진 → 15:15 나리타 → 17:15 출발</p></div>
 </section>
 
-<!-- DAY 1 -->
-<section class="slide" id="s2">
-  <div class="sec-label">Day 1 · 4/29 수</div>
-  <div class="sub">도착 + <span>나카메구로 · 다이칸야마</span></div>
-  <p class="body-text">오후 2시 반 도착. 체크인 후 여유롭게 감성 동네 산책.</p>
-  <div class="card-grid">
-    <div class="card">
-      <div class="tag">도요초에서 20분</div>
-      <h4>나카메구로</h4>
-      <ul>
-        <li><strong>메구로 강변 산책</strong> — 카페, 셀렉트숍, 초록 터널</li>
-        <li><strong>고가 밑 상점가</strong> — 와인바, 크래프트 비어, 잡화</li>
-        <li><strong>Onibus Coffee</strong> — 도쿄 3대 스페셜티 커피</li>
-      </ul>
-      <a href="https://maps.google.com/?q=Nakameguro+Station" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <div class="tag">나카메에서 도보 10분</div>
-      <h4>다이칸야마</h4>
-      <ul>
-        <li><strong>츠타야 서점 (T-SITE)</strong> — 세계에서 가장 아름다운 서점</li>
-        <li>조용하고 세련된 골목. 셀렉트숍, 빈티지</li>
-      </ul>
-      <a href="https://maps.google.com/?q=Daikanyama+T-Site" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <h4>저녁</h4>
-      <ul>
-        <li><strong>A. 이세히로 교바시본점</strong> — `야키토리 노포` 1921년 창업. 숙소에서 ~15분</li>
-        <li><strong>B. 혼다상점 나카메구로</strong> — `야키토리+솥밥` 한국 블로거 추천. 술 무제한 2,480엔</li>
-        <li><strong>C. 에비스 요코초</strong> — `포장마차촌` 여러 가게 돌며 한 잔</li>
-      </ul>
-      <a href="https://maps.google.com/?q=伊勢廣+京橋本店" target="_blank">이세히로</a> · <a href="https://maps.google.com/?q=本田商店+中目黒" target="_blank">혼다상점</a> · <a href="https://maps.google.com/?q=Ebisu+Yokocho" target="_blank">에비스요코초</a>
-    </div>
-  </div>
-  <p class="body-text" style="font-weight:600;color:#333;">주변 가볼만한 곳</p>
-  <div class="card-grid">
-    <div class="card">
-      <h4>☕ 스타벅스 리저브 로스터리</h4>
-      <ul><li>나카메구로역 도보 10분. 세계에서 5번째 로스터리</li><li>4층 건물 전체가 스타벅스. 한정 메뉴</li></ul>
-      <a href="https://maps.google.com/?q=Starbucks+Reserve+Roastery+Tokyo" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <h4>🍜 아후리 (AFURI) 에비스본점</h4>
-      <ul><li>에비스역 도보 3분. 유자시오라멘</li><li>혼다상점 전 or 후에 가볍게</li></ul>
-      <a href="https://maps.google.com/?q=AFURI+Ebisu" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <h4>🍺 에비스 가든 플레이스</h4>
-      <ul><li>에비스역 직결. 에비스 맥주 기념관+레스토랑</li><li>야경 예쁨. 산책하기 좋음</li></ul>
-      <a href="https://maps.google.com/?q=Yebisu+Garden+Place" target="_blank">구글맵</a>
-    </div>
-  </div>
+<section class="s" id="s2">
+<div class="label">Day 1 · 4/29</div>
+<h2>도착 + <b>나카메구로 · 에비스</b></h2>
+<p class="t">오후 3시 반 체크인. 숙소에서 20분이면 나카메구로.</p>
+<div class="g">
+<div class="c">
+<div class="tag">오후</div>
+<h4>A. 나카메구로 강변 산책</h4>
+<ul>
+<li>메구로 강변 카페 홉핑 + 고가 밑 상점가</li>
+<li>다이칸야마 츠타야 서점 (도보 10분)</li>
+<li>스타벅스 리저브 로스터리</li>
+</ul>
+<a href="https://maps.google.com/?q=Nakameguro+Station" target="_blank">구글맵</a>
+</div>
+<div class="c">
+<div class="tag">오후</div>
+<h4>B. 숙소 근처 여유롭게</h4>
+<ul>
+<li>키요스미 정원 — 조용한 일본 정원. 150엔</li>
+<li>Blue Bottle Coffee 키요스미 1호점</li>
+<li>MONNAKA COFFEE — 몬젠나카초 로컬 카페</li>
+</ul>
+<a href="https://maps.google.com/?q=Kiyosumi+Garden+Tokyo" target="_blank">구글맵</a>
+</div>
+</div>
+<p class="t" style="font-weight:600;color:#333">저녁</p>
+<div class="g">
+<div class="c">
+<h4>A. 이세히로 교바시본점</h4>
+<ul>
+<li>`야키토리 노포` 1921년 창업. 숙소에서 ~15분</li>
+<li>100년 역사 정통 야키토리 코스</li>
+</ul>
+<a href="https://maps.google.com/?q=伊勢廣+京橋本店" target="_blank">구글맵</a> · <a href="https://tabelog.com/en/tokyo/A1302/A130202/13251802/" target="_blank">Tabelog</a>
+</div>
+<div class="c">
+<h4>B. 혼다상점 나카메구로</h4>
+<ul>
+<li>`야키토리+솥밥` 한국 블로거 추천</li>
+<li>닭꼬치 모듬 1,180엔 / 술 무제한 2,480엔</li>
+</ul>
+<a href="https://maps.google.com/?q=本田商店+中目黒" target="_blank">구글맵</a> · <a href="https://m.blog.naver.com/newlovely211" target="_blank">블로그</a>
+</div>
+</div>
 </section>
 
-<!-- DAY 2 -->
-<section class="slide" id="s3">
-  <div class="sec-label">Day 2 · 4/30 목</div>
-  <div class="sub">러닝 & 요가 + <span>오모테산도 · 여유</span></div>
-  <div class="card-grid">
-    <div class="card">
-      <div class="tag">6:30~7:30</div>
-      <h4>아침 러닝</h4>
-      <ul>
-        <li><strong>도요스 수변 코스</strong> — 왕복 5~8km</li>
-        <li>운하 → 구루리 공원 → 레인보우 브릿지</li>
-        <li>아침에 사람 거의 없음. 평탄 코스</li>
-      </ul>
-      <a href="https://maps.google.com/?q=Toyosu+Gururi+Park" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <div class="tag">9:00~10:30</div>
-      <h4>요가</h4>
-      <ul>
-        <li><strong>MINT MAT</strong> — 히로오. 3,000엔. 영어 수업 ⭐</li>
-        <li><strong>Under the Light</strong> — 요요기역 1분. 3,300엔</li>
-        <li><strong>Bodhi Yoga</strong> — 오모테산도. 영어 수업</li>
-        <li><strong>Yoga Tree</strong> — 히로오역 1분. 드롭인 OK</li>
-      </ul>
-      <a href="https://mintmat.com/book-a-class" target="_blank">MINT MAT</a> · <a href="https://underthelight.jp/pages/english" target="_blank">UTL</a> · <a href="https://bodhiyoga.jp" target="_blank">Bodhi</a>
-    </div>
-  </div>
-
-  <p class="body-text" style="font-weight:600;color:#333;">오후 — 오모테산도 · 아오야마 (여유롭게)</p>
-  <div class="card-grid">
-    <div class="card">
-      <div class="tag">도요초에서 25분</div>
-      <h4>오모테산도 · 아오야마</h4>
-      <ul>
-        <li><strong>네즈 미술관</strong> — 도심 속 일본 정원. 휴식에 딱. 1,300엔</li>
-        <li><strong>캣스트리트</strong> — 메인 거리보다 한적. 빈티지숍, 카페</li>
-        <li><strong>% Arabica</strong> — 교토 발 스페셜티 커피</li>
-      </ul>
-      <a href="https://www.nezu-muse.or.jp/en/" target="_blank">네즈미술관</a> · <a href="https://maps.google.com/?q=%25+Arabica+Omotesando" target="_blank">Arabica</a>
-    </div>
-    <div class="card">
-      <h4>점심</h4>
-      <ul>
-        <li><strong>bills</strong> — 리코타 팬케이크. "세계 최고의 아침식사"</li>
-        <li><strong>카와카미안</strong> — 아오야마 소바 맛집. 분위기 좋음</li>
-        <li><strong>차차노마</strong> — 다다미 위 말차+화과자. 일본 특색</li>
-      </ul>
-      <a href="https://maps.google.com/?q=bills+Omotesando" target="_blank">bills</a> · <a href="https://maps.google.com/?q=Omotesando+Chachanoma" target="_blank">차차노마</a>
-    </div>
-    <div class="card">
-      <h4>저녁 — 오마카세</h4>
-      <ul>
-        <li><strong>SUSHI TOKYO TEN</strong> 롯폰기 — 6,600엔~</li>
-        <li><strong>스시 M</strong> 니시아자부 — 20,000엔~</li>
-        <li>또는 <strong>에비스 요코초</strong>에서 가볍게</li>
-      </ul>
-      <a href="https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve" target="_blank">TEN 예약</a> · <a href="https://omakase.in/en" target="_blank">omakase.in</a>
-    </div>
-  </div>
-  <p class="body-text" style="font-weight:600;color:#333;">주변 가볼만한 곳</p>
-  <div class="card-grid">
-    <div class="card">
-      <h4>🏛️ 네즈 미술관</h4>
-      <ul><li>오모테산도 끝자락. 도심 속 일본 정원</li><li>1,300엔. 휴식에 딱</li></ul>
-      <a href="https://maps.google.com/?q=Nezu+Museum+Tokyo" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <h4>☕ % Arabica 오모테산도</h4>
-      <ul><li>교토 발 스페셜티 커피</li><li>오모테산도 힐즈 근처</li></ul>
-      <a href="https://maps.google.com/?q=%25+Arabica+Omotesando" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <h4>⛩️ 메이지 신궁</h4>
-      <ul><li>하라주쿠역 옆. 숲속 신사</li><li>무료. 산책+힐링</li></ul>
-      <a href="https://maps.google.com/?q=Meiji+Shrine+Tokyo" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <h4>🛍️ 캣스트리트</h4>
-      <ul><li>오모테산도 뒷골목. 빈티지숍, 독립 카페</li><li>메인 거리보다 한적</li></ul>
-      <a href="https://maps.google.com/?q=Cat+Street+Harajuku" target="_blank">구글맵</a>
-    </div>
-  </div>
+<section class="s" id="s3">
+<div class="label">Day 2 · 4/30</div>
+<h2>러닝 & 요가 + <b>오모테산도</b></h2>
+<div class="g">
+<div class="c">
+<div class="tag">6:30~7:30 운동</div>
+<h4>아침 러닝</h4>
+<ul><li>도요스 수변 코스 — 왕복 5~8km. 레인보우 브릿지 조망</li></ul>
+<a href="https://maps.google.com/?q=Toyosu+Gururi+Park" target="_blank">구글맵</a>
+</div>
+<div class="c">
+<div class="tag">9:00~10:30 운동</div>
+<h4>요가</h4>
+<ul>
+<li>A. MINT MAT (히로오) — 3,000엔. 영어 수업</li>
+<li>B. Under the Light (요요기) — 3,300엔</li>
+</ul>
+<a href="https://mintmat.com/book-a-class" target="_blank">MINT MAT</a> · <a href="https://underthelight.jp/pages/english" target="_blank">UTL</a>
+</div>
+</div>
+<p class="t" style="font-weight:600;color:#333">오후</p>
+<div class="g">
+<div class="c">
+<h4>A. 네즈 미술관 + 카페</h4>
+<ul>
+<li>오모테산도 끝자락. 도심 속 일본 정원. 1,300엔</li>
+<li>% Arabica 오모테산도 — 커피 한 잔</li>
+</ul>
+<a href="https://maps.google.com/?q=Nezu+Museum+Tokyo" target="_blank">구글맵</a>
+</div>
+<div class="c">
+<h4>B. 마이센 돈카츠 + 캣스트리트</h4>
+<ul>
+<li>마이센 아오야마 본점 — 도쿄 돈카츠 대표</li>
+<li>캣스트리트 빈티지숍 산책</li>
+</ul>
+<a href="https://maps.google.com/?q=Tonkatsu+Maisen+Aoyama" target="_blank">구글맵</a>
+</div>
+</div>
+<p class="t" style="font-weight:600;color:#333">저녁</p>
+<div class="g">
+<div class="c">
+<h4>A. 오마카세</h4>
+<ul><li>SUSHI TOKYO TEN 롯폰기 — 런치 6,600엔~</li></ul>
+<a href="https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve" target="_blank">예약</a>
+</div>
+<div class="c">
+<h4>B. 유라쿠초 가드시타</h4>
+<ul><li>철도 고가 아래 이자카야 밀집. 샐러리맨 천국. 숙소에서 ~15분</li></ul>
+<a href="https://maps.google.com/?q=Yurakucho+Gado+Shita" target="_blank">구글맵</a>
+</div>
+</div>
 </section>
 
-<!-- DAY 3 -->
-<section class="slide" id="s4">
-  <div class="sec-label">Day 3 · 5/1 목</div>
-  <div class="sub">시부야 · <span>하라주쿠</span></div>
-  <p class="body-text">여유로운 하루. 러닝 후 도쿄 서쪽 탐방.</p>
-  <div class="card-grid">
-    <div class="card">
-      <div class="tag">6:30~7:30</div>
-      <h4>아침 러닝</h4>
-      <ul><li><strong>황거(고쿄) 코스</strong> — 숙소에서 ~10분. 1바퀴 5km</li></ul>
-      <a href="https://maps.google.com/?q=Imperial+Palace+Running+Course+Tokyo" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <div class="tag">숙소에서 ~30분</div>
-      <h4>메이지 신궁 · 하라주쿠</h4>
-      <ul>
-        <li><strong>메이지 신궁</strong> — 숲속 신사. 무료. 힐링</li>
-        <li><strong>다케시타도리</strong> — 크레이프, 캐릭터 숍</li>
-      </ul>
-      <a href="https://maps.google.com/?q=Meiji+Shrine+Tokyo" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <div class="tag">숙소에서 ~35분</div>
-      <h4>시부야</h4>
-      <ul>
-        <li><strong>SHIBUYA SKY</strong> — 230m 전망대. 석양 추천. 2,000엔</li>
-        <li><strong>스크램블 교차로</strong> — 세계에서 가장 유명한 교차로</li>
-        <li><strong>미야시타 파크</strong> — 옥상 공원+쇼핑</li>
-      </ul>
-      <a href="https://www.shibuya-scramble-square.com/sky/ticket/" target="_blank">SKY 예약</a> · <a href="https://maps.google.com/?q=SHIBUYA+SKY" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <h4>저녁 — 신주쿠 (시부야에서 5분)</h4>
-      <ul>
-        <li><strong>스신주쿠 마사유메</strong> — `해산물 이자카야` 참치 범벅. 한국어 메뉴판</li>
-        <li><strong>신주쿠 로쿠</strong> — `일식` 카라아게+이쿠라동. 예약 추천</li>
-        <li><strong>와타시노쿠시</strong> — `쿠시카츠` 2차로 딱. 귤 사워</li>
-      </ul>
-      <a href="https://maps.google.com/?q=スシンジュク+マサユメ+新宿3丁目" target="_blank">마사유메</a> · <a href="https://maps.google.com/?q=新宿+六+6丁目" target="_blank">로쿠</a> · <a href="https://m.blog.naver.com/ibyh0002/224127499622" target="_blank">블로그 후기</a>
-    </div>
-  </div>
+<section class="s" id="s4">
+<div class="label">Day 3 · 5/1</div>
+<h2>시부야 · <b>신주쿠</b></h2>
+<div class="g">
+<div class="c">
+<div class="tag">6:30~7:30 운동</div>
+<h4>아침 러닝</h4>
+<ul><li>황거(고쿄) 코스 — 1바퀴 5km. 숙소에서 ~10분</li></ul>
+<a href="https://maps.google.com/?q=Imperial+Palace+Running+Course+Tokyo" target="_blank">구글맵</a>
+</div>
+<div class="c">
+<div class="tag">운동 후</div>
+<h4>센토 (목욕탕)</h4>
+<ul><li>코스기유 (하라주쿠) — 러너 사이 유명. 500엔</li></ul>
+<a href="https://maps.google.com/?q=Kosugiyu+Harajuku" target="_blank">구글맵</a>
+</div>
+</div>
+<p class="t" style="font-weight:600;color:#333">오후</p>
+<div class="g">
+<div class="c">
+<h4>A. 메이지 신궁 + 하라주쿠</h4>
+<ul>
+<li>숲속 신사 산책 → 다케시타도리</li>
+<li>SHIBUYA SKY 석양 (2,000엔, 사전 예약)</li>
+</ul>
+<a href="https://www.shibuya-scramble-square.com/sky/ticket/" target="_blank">SKY 예약</a>
+</div>
+<div class="c">
+<h4>B. 신주쿠 교엔 피크닉</h4>
+<ul>
+<li>일본정원+영국정원. 500엔</li>
+<li>잔디밭에서 편의점 도시락+휴식</li>
+</ul>
+<a href="https://maps.google.com/?q=Shinjuku+Gyoen" target="_blank">구글맵</a>
+</div>
+</div>
+<p class="t" style="font-weight:600;color:#333">저녁 — 신주쿠 (시부야에서 5분)</p>
+<div class="g">
+<div class="c">
+<h4>A. 스신주쿠 마사유메</h4>
+<ul><li>`해산물 이자카야` 참치 범벅. 한국어 메뉴판</li></ul>
+<a href="https://maps.google.com/?q=スシンジュク+マサユメ+新宿3丁目" target="_blank">구글맵</a>
+</div>
+<div class="c">
+<h4>B. 와라야키야 신주쿠</h4>
+<ul><li>`고치 요리` 짚불구이 가츠오 타타키 전문</li></ul>
+<a href="https://maps.google.com/?q=藁焼きや+新宿" target="_blank">구글맵</a> · <a href="https://tabelog.com/en/tokyo/A1304/A130401/13178186/" target="_blank">Tabelog</a>
+</div>
+</div>
 </section>
 
-<!-- DAY 4 -->
-<section class="slide" id="s5a">
-  <div class="sec-label">Day 4 · 5/2 토</div>
-  <div class="sub">츠키지 + <span>공항</span></div>
-  <div class="warn"><p>⏰ 13:30 호텔 출발 → 15:15 나리타 → 17:15 NRT 출발</p></div>
-  <div class="card-grid">
-    <div class="card">
-      <div class="tag">6:30~8:00</div>
-      <h4>아침 러닝 or 헬스장</h4>
-      <ul>
-        <li>도요스 수변 코스 or 후카가와 스포츠센터 (450엔)</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="tag">9:00~11:00 · 숙소에서 ~15분</div>
-      <h4>츠키지 외시장</h4>
-      <ul>
-        <li><strong>카이센동</strong> — 해산물 덮밥</li>
-        <li><strong>타마고야키</strong> — 츠키지 명물 계란말이</li>
-        <li><strong>우니 · 호타테</strong> — 성게, 숯불 가리비</li>
-      </ul>
-      <a href="https://maps.google.com/?q=Tsukiji+Outer+Market" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <div class="tag">11:30~12:30</div>
-      <h4>도쿄역 오미야게</h4>
-      <ul>
-        <li><strong>그란스타</strong> — 도쿄 바나나, 과자류</li>
-        <li>라멘 스트리트 — 마지막 한 그릇</li>
-      </ul>
-      <a href="https://maps.google.com/?q=Tokyo+Station+Gransta" target="_blank">구글맵</a>
-    </div>
-  </div>
+<section class="s" id="s5">
+<div class="label">Day 4 · 5/2</div>
+<h2>츠키지 + <b>공항</b></h2>
+<div class="tip"><p>13:30 호텔 출발 → T-CAT 리무진 → 15:15 나리타 → 17:15 출발</p></div>
+<div class="g">
+<div class="c">
+<div class="tag">6:30~8:00 운동</div>
+<h4>아침 러닝 or 헬스장</h4>
+<ul>
+<li>A. 도요스 수변 코스 — 마지막 러닝</li>
+<li>B. 후카가와 스포츠센터 — 450엔</li>
+</ul>
+</div>
+<div class="c">
+<div class="tag">9:00~11:00</div>
+<h4>츠키지 외시장</h4>
+<ul>
+<li>카이센동 · 타마고야키 · 우니 · 호타테</li>
+<li>숙소에서 ~15분</li>
+</ul>
+<a href="https://maps.google.com/?q=Tsukiji+Outer+Market" target="_blank">구글맵</a>
+</div>
+<div class="c">
+<div class="tag">11:30~12:30</div>
+<h4>도쿄역 오미야게</h4>
+<ul>
+<li>A. 그란스타 — 도쿄 바나나, 과자류</li>
+<li>B. 라멘 스트리트 — 마지막 한 그릇</li>
+</ul>
+<a href="https://maps.google.com/?q=Tokyo+Station+Gransta" target="_blank">구글맵</a>
+</div>
+</div>
 </section>
 
-<!-- FITNESS -->
-<section class="slide" id="s5">
-  <div class="sec-label">Fitness</div>
-  <div class="sub">헬스 · 요가 · <span>러닝</span></div>
-  <p class="body-text" style="font-weight:600;color:#333;">헬스장 (일일권)</p>
-  <div class="card-grid">
-    <div class="card">
-      <div class="tag">2,178엔 · 24시간</div>
-      <h4>Fitplace24</h4>
-      <ul>
-        <li>신주쿠, 시부야 등 다수 지점 (숙소에서 ~35분)</li>
-        <li>LINE 예약 → QR코드 입장</li>
-      </ul>
-      <a href="https://fitplace24.co.jp/" target="_blank">공식</a> · <a href="https://blog.naver.com/kwonbs90/224014564411" target="_blank">후기</a>
-    </div>
-    <div class="card">
-      <div class="tag">450엔 · 숙소에서 5분</div>
-      <h4>후카가와 스포츠센터</h4>
-      <ul>
-        <li>몬젠나카초역 도보 5분. 예약 불필요</li>
-        <li>웨이트+유산소, 150m 조깅 트랙</li>
-      </ul>
-      <a href="https://maps.google.com/?q=Fukagawa+Sports+Center+Etchujima" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <div class="tag">3,900엔 · 프리미엄</div>
-      <h4>Gold's Gym 시부야</h4>
-      <ul>
-        <li>시부야역 도보 5분 (숙소에서 ~35분)</li>
-        <li>여권 지참. 시설 최상급</li>
-      </ul>
-      <a href="https://www.goldsgym.jp/shop/13180" target="_blank">공식</a>
-    </div>
-    <div class="card">
-      <div class="tag">3,300엔 · 가성비</div>
-      <h4>TIP.X Tokyo 시부야</h4>
-      <ul>
-        <li>시부야 중심부 (숙소에서 ~35분)</li>
-        <li>종합 피트니스. 웨이트+유산소+스튜디오</li>
-      </ul>
-      <a href="https://tip.tipness.co.jp/shop_info/SHP001/" target="_blank">공식</a>
-    </div>
-    <div class="card">
-      <div class="tag">22,000엔/주 · 스타일리시</div>
-      <h4>Lyft Gym 하라주쿠</h4>
-      <ul>
-        <li>하라주쿠/오모테산도 근처 (숙소에서 ~30분)</li>
-        <li>최신 장비. 타투 OK. 영어 가능</li>
-      </ul>
-      <a href="https://www.lyft-gym.com/en" target="_blank">공식</a>
-    </div>
-  </div>
-  <p class="body-text" style="font-weight:600;color:#333;">요가</p>
-  <div class="card-grid">
-    <div class="card">
-      <div class="tag">⭐ 추천 · 히로오 · 3,000엔</div>
-      <h4>MINT MAT Yoga Studio</h4>
-      <ul><li>히로오역 도보 5분. 영어 수업 있음</li><li>빈야사, 하타, 음요가, 명상. 조용한 공간</li></ul>
-      <a href="https://mintmat.com/book-a-class" target="_blank">예약</a> · <a href="https://maps.google.com/?q=MINT+MAT+Yoga+Studio+Hiroo" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <div class="tag">요요기 · 3,300엔</div>
-      <h4>Under the Light</h4>
-      <ul><li>요요기역 1분. 예약 불필요. 영어 소통 가능</li></ul>
-      <a href="https://underthelight.jp/pages/english" target="_blank">예약</a>
-    </div>
-    <div class="card">
-      <div class="tag">오모테산도 · 영어 수업</div>
-      <h4>Bodhi Yoga</h4>
-      <ul><li>IYC 오모테산도 스튜디오. 초보~상급</li></ul>
-      <a href="https://bodhiyoga.jp" target="_blank">공식</a>
-    </div>
-    <div class="card">
-      <div class="tag">히로오 · 드롭인 OK</div>
-      <h4>Yoga Tree</h4>
-      <ul><li>히로오역 1분. 멤버십 없음. 영어 가능</li></ul>
-      <a href="http://www.yogatree.jp" target="_blank">공식</a>
-    </div>
-    <div class="card">
-      <h4>IYC (International Yoga Center)</h4>
-      <ul><li>오모테산도 등 여러 지점. 영어 가능</li></ul>
-      <a href="https://iyc.jp/en" target="_blank">공식</a>
-    </div>
-  </div>
-  <p class="body-text" style="font-weight:600;color:#333;">러닝</p>
-  <div class="card-grid">
-    <div class="card">
-      <div class="tag">추천 · 5~8km</div>
-      <h4>도요스 수변 코스</h4>
-      <ul><li>호텔 출발 → 운하 → 레인보우 브릿지. 아침 한적</li></ul>
-      <a href="https://maps.google.com/?q=Toyosu+Gururi+Park" target="_blank">구글맵</a>
-    </div>
-    <div class="card">
-      <h4>황거 (고쿄) 코스</h4>
-      <ul><li>오테마치역 10분. 1바퀴 5km. 러닝 스테이션 있음</li></ul>
-      <a href="https://maps.google.com/?q=Imperial+Palace+Running+Course+Tokyo" target="_blank">구글맵</a>
-    </div>
-  </div>
+<section class="s" id="s6">
+<div class="label">Fitness</div>
+<h2>헬스장 · 요가 · <b>러닝</b></h2>
+<p class="t" style="font-weight:600;color:#333">헬스장 (일일권)</p>
+<div class="g">
+<div class="c">
+<div class="tag">450엔 · 숙소 5분</div>
+<h4>후카가와 스포츠센터</h4>
+<ul><li>예약 불필요. 웨이트+유산소+150m 트랙</li></ul>
+<a href="https://maps.google.com/?q=Fukagawa+Sports+Center+Etchujima" target="_blank">구글맵</a>
+</div>
+<div class="c">
+<div class="tag">2,178엔 · 24시간</div>
+<h4>Fitplace24</h4>
+<ul><li>LINE 예약 → QR 입장. 신주쿠/시부야 등</li></ul>
+<a href="https://fitplace24.co.jp/" target="_blank">공식</a>
+</div>
+<div class="c">
+<div class="tag">3,900엔 · 프리미엄</div>
+<h4>Gold's Gym 시부야</h4>
+<ul><li>시설 최상급. 여권 지참</li></ul>
+<a href="https://www.goldsgym.jp/shop/13180" target="_blank">공식</a>
+</div>
+</div>
+<p class="t" style="font-weight:600;color:#333">요가</p>
+<div class="g">
+<div class="c">
+<div class="tag">히로오 · 3,000엔</div>
+<h4>MINT MAT Yoga</h4>
+<ul><li>영어 수업. 빈야사/하타/명상</li></ul>
+<a href="https://mintmat.com/book-a-class" target="_blank">예약</a>
+</div>
+<div class="c">
+<div class="tag">요요기 · 3,300엔</div>
+<h4>Under the Light</h4>
+<ul><li>예약 불필요. 다양한 스타일</li></ul>
+<a href="https://underthelight.jp/pages/english" target="_blank">예약</a>
+</div>
+</div>
+<p class="t" style="font-weight:600;color:#333">러닝</p>
+<div class="g">
+<div class="c">
+<h4>도요스 수변 코스</h4>
+<ul><li>호텔 출발. 왕복 5~8km. 레인보우 브릿지</li></ul>
+<a href="https://maps.google.com/?q=Toyosu+Gururi+Park" target="_blank">구글맵</a>
+</div>
+<div class="c">
+<h4>황거 (고쿄) 코스</h4>
+<ul><li>오테마치역 ~10분. 1바퀴 5km</li></ul>
+<a href="https://maps.google.com/?q=Imperial+Palace+Running+Course+Tokyo" target="_blank">구글맵</a>
+</div>
+</div>
 </section>
 
-<!-- OMAKASE -->
-<section class="slide" id="s6">
-  <div class="sec-label">Reservation</div>
-  <div class="sub">🍣 <span>오마카세 예약</span></div>
-  <table>
-    <tr><th>사이트</th><th>특징</th></tr>
-    <tr><td><a href="https://www.tablecheck.com/en/japan/tokyo" target="_blank">TableCheck</a></td><td>도쿄 레스토랑 예약 최대 플랫폼</td></tr>
-    <tr><td><a href="https://omakase.in/en" target="_blank">Omakase.in</a></td><td>오마카세/파인다이닝 전문</td></tr>
-    <tr><td><a href="https://omakaseje.com/" target="_blank">OmakaseJE</a></td><td>일본 파인다이닝 전문</td></tr>
-    <tr><td><a href="https://tabelog.com/en/tokyo/rstLst/RC010201/" target="_blank">Tabelog</a></td><td>일본 최대 맛집 리뷰+예약</td></tr>
-  </table>
-  <div class="card-grid">
-    <div class="card">
-      <div class="tag">롯폰기 · 6,600엔~</div>
-      <h4>SUSHI TOKYO TEN</h4>
-      <a href="https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve" target="_blank">예약</a>
-    </div>
-    <div class="card">
-      <div class="tag">니시아자부 · 20,000엔~</div>
-      <h4>鮨 m (스시 M)</h4>
-      <a href="https://www.tablecheck.com/en/shops/sushi-m/reserve" target="_blank">예약</a>
-    </div>
-    <div class="card">
-      <div class="tag">츠키지 · 6,600엔~</div>
-      <h4>츠키지 스시 오마카세</h4>
-      <a href="https://www.tablecheck.com/ja/shops/tsukijisushiomakase/reserve" target="_blank">예약</a>
-    </div>
-  </div>
-</section>
-
-<!-- CHECKLIST -->
-<section class="slide" id="s7">
-  <div class="sec-label">Checklist</div>
-  <div class="sub">✅ 출발 전 <span>체크리스트</span></div>
-  <ul class="checklist">
-    <li class="done">✈️ 비행기 예약</li>
-    <li class="done">📱 유심 준비</li>
-    <li class="done">🏨 호텔 (이스트21)</li>
-    <li>📲 Welcome Suica Mobile 앱 설치 + 충전</li>
-    <li>🚌 리무진버스 예약 (나리타 → T-CAT)</li>
-    <li>📲 LINE 앱 설치 (Fitplace24 예약용)</li>
-    <li>🍣 오마카세 예약 (4/30 저녁 추천)</li>
-    <li>요가 스튜디오 확인 (4/30 오전)</li>
-    <li>💴 현금 준비 (1~2만엔)</li>
-    <li>👟 러닝화 + 겉옷 + 우산</li>
-  </ul>
-  <p style="margin-top:48px;color:#999;font-size:.85rem;">🇯🇵 즐거운 여행 되세요! — 다은 & 다빈</p>
+<section class="s" id="s7">
+<div class="label">Appendix</div>
+<h2>부록 — <b>추천 리스트</b></h2>
+<p class="t" style="font-weight:600;color:#333">장르별 맛집</p>
+<table>
+<tr><th>장르</th><th>가게</th><th>특징</th><th>링크</th></tr>
+<tr><td>장어 덮밥</td><td>우나후지 야에스</td><td>Tabelog 장어 1위. 도쿄역</td><td><a href="https://tabelog.com/en/tokyo/A1302/A130201/13279890/" target="_blank">Tabelog</a></td></tr>
+<tr><td>고치 와라야키</td><td>와라야키야 신주쿠</td><td>짚불구이 가츠오 타타키</td><td><a href="https://tabelog.com/en/tokyo/A1304/A130401/13178186/" target="_blank">Tabelog</a></td></tr>
+<tr><td>돈카츠</td><td>마이센 아오야마</td><td>도쿄 돈카츠 대표</td><td><a href="https://maps.google.com/?q=Tonkatsu+Maisen+Aoyama" target="_blank">구글맵</a></td></tr>
+<tr><td>돈카츠</td><td>부타구미 니시아자부</td><td>브랜드 돼지 선택. 프리미엄</td><td><a href="https://tabelog.com/en/tokyo/A1307/A130701/13004791/" target="_blank">Tabelog</a></td></tr>
+<tr><td>오마카세</td><td>SUSHI TOKYO TEN</td><td>런치 6,600엔~</td><td><a href="https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve" target="_blank">예약</a></td></tr>
+<tr><td>오마카세</td><td>스시 M</td><td>디너 20,000엔~</td><td><a href="https://www.tablecheck.com/en/shops/sushi-m/reserve" target="_blank">예약</a></td></tr>
+<tr><td>야키토리</td><td>이세히로 교바시</td><td>1921년 노포. 숙소 ~15분</td><td><a href="https://maps.google.com/?q=伊勢廣+京橋本店" target="_blank">구글맵</a></td></tr>
+<tr><td>오야코동</td><td>타마히데</td><td>1760년 창업. 원조. 숙소 ~15분</td><td><a href="https://maps.google.com/?q=玉ひで+人形町" target="_blank">구글맵</a></td></tr>
+</table>
+<p class="t" style="font-weight:600;color:#333">요코초 (포차 골목)</p>
+<table>
+<tr><th>요코초</th><th>위치</th><th>특징</th></tr>
+<tr><td>유라쿠초 가드시타</td><td>~15분</td><td>철도 고가 아래. 가장 로컬</td></tr>
+<tr><td>에비스 요코초</td><td>~25분</td><td>실내 포장마차촌</td></tr>
+<tr><td>논베이 요코초</td><td>~35분</td><td>시부야 레트로 골목</td></tr>
+<tr><td>긴자 시마다</td><td>~15분</td><td>Tabelog 100 스탠딩 바</td></tr>
+</table>
+<p class="t" style="font-weight:600;color:#333">센토 (러닝 후 목욕)</p>
+<table>
+<tr><th>센토</th><th>특징</th><th>링크</th></tr>
+<tr><td>코스기유 (하라주쿠)</td><td>리노베이션 센토. 밀크탕+냉탕</td><td><a href="https://maps.google.com/?q=Kosugiyu+Harajuku" target="_blank">구글맵</a></td></tr>
+<tr><td>코가네유 (킨시초)</td><td>디자인 센토+카페. 숙소 ~20분</td><td><a href="https://maps.google.com/?q=Koganeyu+Kinshicho" target="_blank">구글맵</a></td></tr>
+</table>
+<p class="t" style="font-weight:600;color:#333">카페</p>
+<table>
+<tr><th>카페</th><th>위치</th><th>특징</th></tr>
+<tr><td>Onibus Coffee</td><td>나카메구로</td><td>도쿄 3대 스페셜티</td></tr>
+<tr><td>Fuglen</td><td>요요기</td><td>노르웨이. 낮 커피, 밤 칵테일</td></tr>
+<tr><td>차차노마</td><td>오모테산도</td><td>다다미 위 말차+화과자</td></tr>
+<tr><td>% Arabica</td><td>오모테산도</td><td>교토 발 스페셜티</td></tr>
+<tr><td>Blue Bottle</td><td>키요스미</td><td>일본 1호점. 숙소 ~10분</td></tr>
+</table>
+<p style="margin-top:40px;color:#aaa;font-size:.82rem;text-align:center">다은 & 다빈의 도쿄 여행기</p>
 </section>
 
 <script>
-const slides=document.querySelectorAll('.slide');
-const nav=document.getElementById('nav');
-slides.forEach((_,i)=>{const a=document.createElement('a');a.href='#s'+i;nav.appendChild(a);});
-const dots=[...nav.children];
-const ob=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){const i=[...slides].indexOf(e.target);dots.forEach((d,j)=>d.classList.toggle('active',j===i));}});},{threshold:.5});
-slides.forEach(s=>ob.observe(s));
+const s=document.querySelectorAll('.s'),n=document.getElementById('nav');
+s.forEach((_,i)=>{const a=document.createElement('a');a.href='#s'+i;n.appendChild(a)});
+const d=[...n.children];
+new IntersectionObserver(e=>{e.forEach(e=>{if(e.isIntersecting){const i=[...s].indexOf(e.target);d.forEach((a,j)=>a.classList.toggle('active',j===i))}})},{threshold:.5}).observe&&s.forEach(x=>new IntersectionObserver(e=>{e.forEach(e=>{if(e.isIntersecting){const i=[...s].indexOf(e.target);d.forEach((a,j)=>a.classList.toggle('active',j===i))}})},{threshold:.5}).observe(x));
 </script>
 </body>
 </html>
