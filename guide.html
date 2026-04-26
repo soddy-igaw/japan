@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>다은 다빈 도쿄 가이드</title>
+<style>
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Pretendard',sans-serif;background:#fafafa;color:#1a1a1a}
+a{color:#16a34a;text-decoration:none}
+
+/* hero */
+.hero{background:#f0fdf4;text-align:center;padding:48px 6vw 32px}
+.hero img{width:min(200px,40vw);height:min(200px,40vw);object-fit:cover;border-radius:50%;border:4px solid #dcfce7;margin-bottom:16px}
+.hero h1{font-size:1.8rem;font-weight:900;line-height:1.3}
+.hero h1 b{color:#16a34a}
+.hero p{color:#888;font-size:.85rem;margin-top:6px}
+
+/* map */
+.map-wrap{padding:0 4vw 8px}
+.map-wrap iframe{width:100%;height:45vh;min-height:300px;border:none;border-radius:12px;margin-top:-8px}
+
+/* tabs */
+.tabs{display:flex;gap:6px;padding:12px 4vw;overflow-x:auto;position:sticky;top:0;background:#fafafa;z-index:10;border-bottom:1px solid #e5e7eb}
+.tabs a{flex-shrink:0;padding:6px 14px;border-radius:20px;font-size:.82rem;font-weight:600;color:#555;background:#fff;border:1px solid #e5e7eb;transition:.2s}
+.tabs a.active,.tabs a:hover{background:#16a34a;color:#fff;border-color:#16a34a}
+
+/* section */
+.sec{padding:28px 5vw 12px}
+.sec h2{font-size:1.2rem;font-weight:800;margin-bottom:4px}
+.sec h2 span{color:#16a34a}
+.sec .desc{font-size:.82rem;color:#888;margin-bottom:16px}
+
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;padding:0 5vw 20px}
+.card{background:#fff;border-radius:12px;padding:16px;border:1px solid #e5e7eb;transition:.15s}
+.card:hover{box-shadow:0 4px 16px rgba(0,0,0,.06)}
+.card h3{font-size:.95rem;font-weight:700;margin-bottom:4px}
+.card .meta{font-size:.75rem;color:#888;margin-bottom:6px}
+.card .body{font-size:.84rem;color:#555;line-height:1.6}
+.card .links{margin-top:8px;font-size:.78rem;display:flex;gap:8px;flex-wrap:wrap}
+.card .links a{background:#f0fdf4;padding:3px 8px;border-radius:6px;font-weight:500}
+.tag{display:inline-block;font-size:.62rem;font-weight:700;padding:2px 7px;border-radius:10px;margin-right:4px}
+.tag.run{background:#dcfce7;color:#15803d}
+.tag.cafe{background:#fef3c7;color:#92400e}
+.tag.food{background:#fee2e2;color:#991b1b}
+.tag.bar{background:#ede9fe;color:#5b21b6}
+.tag.gym{background:#d1fae5;color:#065f46}
+.tag.sento{background:#e0f2fe;color:#0369a1}
+.tag.spot{background:#f3e8ff;color:#7c3aed}
+
+/* footer */
+.foot{text-align:center;padding:32px 5vw;color:#bbb;font-size:.78rem}
+.foot b{color:#16a34a}
+
+@media(max-width:600px){.hero h1{font-size:1.4rem}.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<img src="cover.jpg" alt="다은 다빈">
+<h1>우당탕!!! <b>도쿄 가이드</b></h1>
+<p>2026. 04. 29 — 05. 02 · 호텔 이스트21</p>
+<p style="margin-top:4px"><a href="index.html" style="font-size:.78rem">📅 일정표 보기</a></p>
+</div>
+
+<div class="map-wrap">
+<iframe src="https://www.google.com/maps/d/embed?mid=1&z=12&ll=35.6762,139.7100" loading="lazy"></iframe>
+</div>
+
+<nav class="tabs" id="tabs">
+<a href="#all" class="active" data-cat="all">전체</a>
+<a href="#run" data-cat="run">🏃 러닝</a>
+<a href="#cafe" data-cat="cafe">☕ 카페</a>
+<a href="#food" data-cat="food">🍳 맛집</a>
+<a href="#bar" data-cat="bar">🍷 바</a>
+<a href="#gym" data-cat="gym">💪 헬스</a>
+<a href="#sento" data-cat="sento">🛁 센토</a>
+<a href="#spot" data-cat="spot">📍 관광</a>
+</nav>
+
+<div class="sec"><h2>🏃 <span>러닝 코스</span></h2><p class="desc">ref. <a href="https://www.youtube.com/watch?v=MJAyhtnQ2Og">나눔 @_nanoom</a> · Nike Run Club 앱 → Club → Events (무료)</p></div>
+<div class="cards" id="list">
+
+<div class="card" data-cat="run"><span class="tag run">러닝</span><h3>황거 (고쿄) 코스</h3><div class="meta">5km · 도쿄 대표 코스</div><div class="body">신호 없이 한 바퀴. 사쿠라다몬 출발 반시계 방향.</div><div class="links"><a href="https://www.google.com/maps/search/Imperial+Palace+Running+Course+Tokyo">지도</a></div></div>
+
+<div class="card" data-cat="run"><span class="tag run">러닝</span><h3>요요기 공원</h3><div class="meta">3.5km · 숲속 코스</div><div class="body">시부야 도보 10분. Chill Run Crew 매주 일 8AM 집결.</div><div class="links"><a href="https://www.google.com/maps/search/Yoyogi+Park+Tokyo">지도</a><a href="https://www.meetup.com/chillruncrew-tokyo/">Meetup</a></div></div>
+
+<div class="card" data-cat="run"><span class="tag run">러닝</span><h3>스미다강 → 아사쿠사</h3><div class="meta">4km · 스카이트리 뷰</div><div class="body">강변 달리고 센소지 아침 산책. 이른 아침이 최고.</div><div class="links"><a href="https://www.google.com/maps/search/Sumida+River+Tokyo">지도</a></div></div>
+
+<div class="card" data-cat="run"><span class="tag run">러닝</span><h3>나카메구로 · 다이칸야마</h3><div class="meta">5km · 카페 거리 코스</div><div class="body">메구로 강변 → 다이칸야마 언덕. 고급 주택가.</div><div class="links"><a href="https://www.google.com/maps/search/Nakameguro+Station">지도</a></div></div>
+
+<div class="card" data-cat="run"><span class="tag run">러닝</span><h3>도요스 수변</h3><div class="meta">5~8km · 숙소 바로 출발</div><div class="body">도요스 구루리 공원. 레인보우브릿지 뷰.</div><div class="links"><a href="https://www.google.com/maps/search/Toyosu+Gururi+Park">지도</a></div></div>
+
+<!-- 카페 -->
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">황거</span><h3>DILL COFFEE PARLOR</h3><div class="meta">진바초 · 황거 러닝 후</div><div class="body">스타벅스보다 한적. 나눔 추천.</div><div class="links"><a href="https://www.google.com/maps/search/DILL+COFFEE+PARLOR+Jimbocho">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">황거</span><h3>글릿치 커피 & 로스터스</h3><div class="meta">진바초 · 스페셜티</div><div class="body">진바초 대표 스페셜티 커피.</div><div class="links"><a href="https://www.google.com/maps/search/Glitch+Coffee+Roasters+Jimbocho">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">요요기</span><h3>커피 수프림 도쿄</h3><div class="meta">요요기 · 중급 · 나눔 추천</div><div class="body">한국에서 경험하기 힘든 맛. 라떼 추천.</div><div class="links"><a href="https://www.google.com/maps/search/Coffee+Supreme+Tokyo">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">요요기</span><h3>리틀 냅 커피 스탠드</h3><div class="meta">요요기 · 중급</div><div class="body">기찻길 바로 옆. 무드 좋음.</div><div class="links"><a href="https://www.google.com/maps/search/Little+Nap+Coffee+Stand+Yoyogi">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">요요기</span><h3>Fuglen Tokyo</h3><div class="meta">시부야 · 입문</div><div class="body">노르웨이 스페셜티 커피.</div><div class="links"><a href="https://www.google.com/maps/search/Fuglen+Tokyo+Shibuya">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">요요기</span><h3>블루보틀 시부야</h3><div class="meta">시부야 · 입문</div><div class="body">넓고 쾌적. 요요기 집결지 바로 옆.</div><div class="links"><a href="https://www.google.com/maps/search/Blue+Bottle+Coffee+Shibuya">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">요요기</span><h3>카멜백 샌드위치</h3><div class="meta">시부야 · 중급</div><div class="body">에그 샌드위치 테이크아웃. 어니언 성수 팝업.</div><div class="links"><a href="https://www.google.com/maps/search/Camelback+sandwich+espresso+Shibuya">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">요요기</span><h3>패들러스 커피</h3><div class="meta">시부야 · 상급 (거리 먼 편)</div><div class="body">좌석 넓음. 핫도그 맛있음. 나눔 추천.</div><div class="links"><a href="https://www.google.com/maps/search/Paddlers+Coffee+Tokyo">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">요요기</span><h3>마가렛 호웰 커피</h3><div class="meta">시부야 · 입문</div><div class="body">패션 브랜드 카페.</div><div class="links"><a href="https://www.google.com/maps/search/Margaret+Howell+Shop+Coffee+Tokyo">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><span class="tag run">아사쿠사</span><h3>Fuglen 아사쿠사</h3><div class="meta">아사쿠사 · 스미다강 러닝 후</div><div class="body">브런치+커피. 근처 유일한 괜찮은 카페.</div><div class="links"><a href="https://www.google.com/maps/search/Fuglen+Asakusa">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><h3>스타벅스 리저브 로스터리</h3><div class="meta">나카메구로 · 7:00~</div><div class="body">세계 최대 규모. 나카메구로 강변.</div><div class="links"><a href="https://www.google.com/maps/search/Starbucks+Reserve+Roastery+Tokyo">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><h3>Blue Bottle 키요스미</h3><div class="meta">키요스미 · 숙소 도보 15분</div><div class="body">일본 1호점. 8:00~</div><div class="links"><a href="https://www.google.com/maps/search/Blue+Bottle+Coffee+Kiyosumi">지도</a></div></div>
+
+<div class="card" data-cat="cafe"><span class="tag cafe">카페</span><h3>다이칸야마 츠타야 서점</h3><div class="meta">다이칸야마 · 7:00~</div><div class="body">세계에서 가장 아름다운 서점.</div><div class="links"><a href="https://www.google.com/maps/search/Daikanyama+T-Site">지도</a></div></div>
+
+<!-- 맛집 -->
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>츠키지 외시장</h3><div class="meta">숙소 15분 · 6:00~</div><div class="body">카이센동 · 타마고야키 · 우니 · 호타테. 아침 먹방.</div><div class="links"><a href="https://www.google.com/maps/search/Tsukiji+Outer+Market">지도</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>이세히로 교바시본점</h3><div class="meta">★ 3.7 Tabelog · 1921년</div><div class="body">100년 야키토리 노포. 숙소 15분.</div><div class="links"><a href="https://www.google.com/maps/search/伊勢廣+京橋本店">지도</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>우나후지 야에스</h3><div class="meta">Tabelog 1위 · 장어</div><div class="body">히츠마부시. 장어 덮밥의 정점.</div><div class="links"><a href="https://tabelog.com/en/tokyo/A1302/A130201/13279890/">Tabelog</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>마이센 돈카츠</h3><div class="meta">★ 3.7 Tabelog · 아오야마</div><div class="body">도쿄 돈카츠 대표. 캣스트리트 근처.</div><div class="links"><a href="https://www.google.com/maps/search/Tonkatsu+Maisen+Aoyama">지도</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>SUSHI TOKYO TEN</h3><div class="meta">★ 3.6 Tabelog · 롯폰기</div><div class="body">오마카세 런치 6,600엔~</div><div class="links"><a href="https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve">예약</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>타마히데 오야코동</h3><div class="meta">★ 4.0 · 1760년 창업</div><div class="body">오야코동의 원조. 숙소 15분.</div><div class="links"><a href="https://www.google.com/maps/search/玉ひで+人形町">지도</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>와라야키야 신주쿠</h3><div class="meta">★ 3.5 Tabelog · 고치 요리</div><div class="body">짚불구이 가츠오 타타키 전문.</div><div class="links"><a href="https://tabelog.com/en/tokyo/A1304/A130401/13178186/">Tabelog</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>혼다상점</h3><div class="meta">나카메구로 · 야키토리</div><div class="body">술 무제한 2,480엔.</div><div class="links"><a href="https://www.google.com/maps/search/本田商店+中目黒">지도</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>스신주쿠 마사유메</h3><div class="meta">★ 4.2 · 신주쿠</div><div class="body">해산물 이자카야. 참치 범벅 1,649엔. 현지인 가득.</div><div class="links"><a href="https://www.google.com/maps/search/スシンジュク+マサユメ+新宿3丁目">지도</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>Walkabout</h3><div class="meta">진바초 · 브런치</div><div class="body">황거 러닝 후 브런치. 나눔 추천.</div><div class="links"><a href="https://www.google.com/maps/search/Walkabout+Jimbocho">지도</a></div></div>
+
+<div class="card" data-cat="food"><span class="tag food">맛집</span><h3>유라쿠초 가드시타</h3><div class="meta">숙소 15분 · 요코초</div><div class="body">철도 고가 아래 이자카야 밀집. 샐러리맨 천국.</div><div class="links"><a href="https://www.google.com/maps/search/Yurakucho+Gado+Shita">지도</a></div></div>
+
+<!-- 바 -->
+<div class="card" data-cat="bar"><span class="tag bar">바</span><h3>SOYA 긴자</h3><div class="meta">긴자 · 내추럴 와인</div><div class="body">고민가 내추럴 와인+이탈리안. 분위기 최고.</div><div class="links"><a href="https://tabelog.com/en/tokyo/A1302/A130202/13112210/">Tabelog</a></div></div>
+
+<div class="card" data-cat="bar"><span class="tag bar">바</span><h3>IMADEYA 긴자</h3><div class="meta">GINZA SIX</div><div class="body">스탠딩 테이스팅. 사케+와인.</div><div class="links"><a href="https://tabelog.com/en/tokyo/A1301/A130101/13207666/">Tabelog</a></div></div>
+
+<div class="card" data-cat="bar"><span class="tag bar">바</span><h3>비어홀 라이온 7초메</h3><div class="meta">긴자 · 1934년</div><div class="body">일본 최초 비어홀.</div><div class="links"><a href="https://tabelog.com/en/tokyo/A1301/A130101/13060180/">Tabelog</a></div></div>
+
+<div class="card" data-cat="bar"><span class="tag bar">바</span><h3>PILSEN ALLEY</h3><div class="meta">긴자</div><div class="body">체코 필스너 전문.</div><div class="links"><a href="https://tabelog.com/en/tokyo/A1301/A130101/13189900/">Tabelog</a></div></div>
+
+<!-- 헬스 -->
+<div class="card" data-cat="gym"><span class="tag gym">헬스</span><h3>후카가와 스포츠센터</h3><div class="meta">450엔 · 숙소 5분</div><div class="body">예약 불필요. 발권기 → 바로 입장.</div><div class="links"><a href="https://www.google.com/maps/search/Fukagawa+Sports+Center+Etchujima">지도</a></div></div>
+
+<div class="card" data-cat="gym"><span class="tag gym">헬스</span><h3>Fitplace24</h3><div class="meta">2,178엔 · LINE 예약</div><div class="body">LINE앱 → Fitplace 검색 → QR입장.</div><div class="links"><a href="https://blog.naver.com/kwonbs90/224014564411">한국 후기</a></div></div>
+
+<div class="card" data-cat="gym"><span class="tag gym">헬스</span><h3>Gold's Gym 시부야</h3><div class="meta">3,900엔 · 시부야역 5분</div><div class="body">여권 지참 → 카운터 일일권. 시설 최상급.</div><div class="links"><a href="https://fitnesstravelerjapan.com/golds-gym">이용 가이드</a><a href="https://www.google.com/maps/search/Gold's+Gym+Shibuya">지도</a></div></div>
+
+<!-- 센토 -->
+<div class="card" data-cat="sento"><span class="tag sento">센토</span><h3>코스기유</h3><div class="meta">하라주쿠 · ★4.3 · 500엔</div><div class="body">밀크탕+냉탕. 러너들 사이 유명.</div><div class="links"><a href="https://www.google.com/maps/search/Kosugiyu+Harajuku">지도</a></div></div>
+
+<div class="card" data-cat="sento"><span class="tag sento">센토</span><h3>코가네유</h3><div class="meta">킨시초 · ★4.3 · 숙소 20분</div><div class="body">디자인 센토+카페. 운동 후 추천.</div><div class="links"><a href="https://www.google.com/maps/search/Koganeyu+Kinshicho">지도</a></div></div>
+
+<!-- 관광 -->
+<div class="card" data-cat="spot"><span class="tag spot">관광</span><h3>네즈 미술관</h3><div class="meta">오모테산도 · ★4.4 · 1,300엔</div><div class="body">도심 속 일본 정원. % Arabica 근처.</div><div class="links"><a href="https://www.google.com/maps/search/Nezu+Museum+Tokyo">지도</a></div></div>
+
+<div class="card" data-cat="spot"><span class="tag spot">관광</span><h3>SHIBUYA SKY</h3><div class="meta">시부야 · ★4.5 · 2,000엔</div><div class="body">석양 타이밍 추천.</div><div class="links"><a href="https://www.shibuya-scramble-square.com/sky/ticket/">예약</a></div></div>
+
+<div class="card" data-cat="spot"><span class="tag spot">관광</span><h3>메이지 신궁</h3><div class="meta">하라주쿠 · ★4.6</div><div class="body">숲속 신사 산책 → 다케시타도리.</div><div class="links"><a href="https://www.google.com/maps/search/Meiji+Shrine+Tokyo">지도</a></div></div>
+
+<div class="card" data-cat="spot"><span class="tag spot">관광</span><h3>신주쿠 교엔</h3><div class="meta">신주쿠 · ★4.5 · 500엔</div><div class="body">일본정원+영국정원. 잔디밭 피크닉.</div><div class="links"><a href="https://www.google.com/maps/search/Shinjuku+Gyoen">지도</a></div></div>
+
+<div class="card" data-cat="spot"><span class="tag spot">관광</span><h3>키요스미 정원</h3><div class="meta">숙소 도보 15분 · 150엔</div><div class="body">조용한 일본 정원. 첫날에 딱.</div><div class="links"><a href="https://www.google.com/maps/search/Kiyosumi+Garden+Tokyo">지도</a></div></div>
+
+</div>
+
+<div class="foot">
+우당탕 다은 다빈의 도쿄 여행기<br>
+<b>무사 귀환 바랍니다 ✈️</b>
+</div>
+
+<script>
+document.querySelectorAll('.tabs a').forEach(t=>{
+  t.onclick=e=>{
+    e.preventDefault();
+    document.querySelectorAll('.tabs a').forEach(a=>a.classList.remove('active'));
+    t.classList.add('active');
+    const cat=t.dataset.cat;
+    document.querySelectorAll('.card').forEach(c=>{
+      c.style.display=(cat==='all'||c.dataset.cat===cat)?'':'none';
+    });
+    // show/hide section headers
+    document.querySelectorAll('.sec').forEach(s=>s.style.display=(cat==='all')?'':'none');
+  }
+});
+</script>
+</body>
+</html>
