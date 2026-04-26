@@ -2,7 +2,7 @@
 
 **일정**: 2026년 4월 29일(수) ~ 5월 2일(토)
 **숙소**: [호텔 이스트21 도쿄](http://www.hotel-east21.co.jp/en/) — 도요초역 1번 출구 도보 7분 · [구글맵](https://maps.google.com/?q=Hotel+East+21+Tokyo)
-**동행**: 다빈 & 다은
+**동행**: 다은 & 다빈
 **컨셉**: 🏃 러닝 + 🧘 요가 + 🍽️ 특색 있는 맛집 + 😌 여유로운 휴식
 
 > ⚠️ 4/29은 쇼와의 날(공휴일), 골든위크 시작. 메인 관광지는 피하고 여유로운 동네 위주로!
@@ -399,7 +399,7 @@
 
 ---
 
-## 다빈 & 다은의 도쿄 리스트
+## 다은 & 다빈의 도쿄 리스트
 
 > P형 두 명을 위한 여유로운 리스트. 계획 없이 그날 기분에 따라 골라가기.
 > 숙소(도요초)에서 소요시간 기준.
@@ -433,6 +433,18 @@
 | **Fuglen** | 요요기 | 노르웨이 발 카페+바. 낮엔 커피, 밤엔 칵테일 | ~30분 |
 | **Blue Bottle Coffee** | 키요스미시라카와 | 일본 1호점. 숙소에서 가까움 | ~10분 |
 
+### 숙소 근처 (도요초/몬젠나카초/키요스미시라카와)
+
+> 도보 5~20분. 피곤한 날 멀리 안 가고 동네에서.
+
+| 가게 | 장르 | 특징 | 링크 |
+|------|------|------|------|
+| **MONNAKA COFFEE** | `카페` | 몬젠나카초역 도보 2분. 로컬 스페셜티 커피 | [구글맵](https://maps.google.com/?q=MONNAKA+COFFEE+Monzennakacho) |
+| **Blue Bottle Coffee 키요스미** | `카페` | 일본 1호점. 도보 20분 or 전철 5분 | [구글맵](https://maps.google.com/?q=Blue+Bottle+Coffee+Kiyosumi) |
+| **후카가와 주쿠 (深川宿)** | `향토 덮밥` | 바지락 간장 덮밥. 이 지역 명물 | [구글맵](https://maps.google.com/?q=深川宿+門前仲町) |
+| **멘야 미야모토** | `라멘` | 키요스미시라카와. Tabelog 고평점 라멘 | [Tabelog](https://tabelog.com/en/tokyo/A1313/A131303/13199222/) |
+| **키요스미 정원** | `정원` | 150엔. 조용한 일본 정원. 산책+휴식 | [구글맵](https://maps.google.com/?q=Kiyosumi+Garden+Tokyo) |
+
 ### 맛집 — 남들이 안 가는 특색 있는 곳
 
 | 맛집 | 장르 | 위치 | 특징 | 소요 |
@@ -456,6 +468,30 @@
 | **신주쿠 교엔 피크닉** | 잔디밭에 누워서 쉬기. 편의점 도시락+맥주 | ~25분 |
 | **키치조지 이노카시라 공원** | 호수 보트+지브리 숲 산책. 근교 반나절 코스 | ~50분 |
 
+### 요코초 (포차 골목) — 현지인들 사이에서 한 잔
+
+| 요코초 | 위치 | 특징 | 소요 |
+|--------|------|------|------|
+| **유라쿠초 가드시타** | 유라쿠초~신바시 | 철도 고가 아래 이자카야 밀집. 샐러리맨 천국. 가장 로컬 | ~15분 |
+| **에비스 요코초** | 에비스 | 실내 포장마차촌. 10곳+ 돌며 한 잔씩 | ~25분 |
+| **논베이 요코초** | 시부야 | 시부야역 옆 레트로 골목. 작은 바 40곳+ | ~35분 |
+| **오모이데 요코초** | 신주쿠 | '추억의 골목'. 야키토리 연기 자욱. 관광객도 있지만 분위기 최고 | ~30분 |
+| **긴자 시마다** | 신바시 | Tabelog 100 선정 스탠딩 바. 일본 사케+해산물 | ~15분 |
+
+> 추천: 유라쿠초 가드시타가 숙소에서 가장 가깝고 (15분) 가장 현지인 느낌
+
+### 구글맵 저장 리스트
+
+여행 전에 구글맵에 저장해두면 현장에서 바로 찾기 편해요:
+
+- [이세히로 교바시](https://maps.google.com/?q=伊勢廣+京橋本店) · [혼다상점](https://maps.google.com/?q=本田商店+中目黒) · [에비스 요코초](https://maps.google.com/?q=Ebisu+Yokocho)
+- [MINT MAT Yoga](https://maps.google.com/?q=MINT+MAT+Yoga+Studio+Hiroo) · [후카가와 스포츠센터](https://maps.google.com/?q=Fukagawa+Sports+Center+Etchujima)
+- [츠키지 외시장](https://maps.google.com/?q=Tsukiji+Outer+Market) · [네즈 미술관](https://maps.google.com/?q=Nezu+Museum+Tokyo)
+- [코스기유 센토](https://maps.google.com/?q=Kosugiyu+Harajuku) · [SHIBUYA SKY](https://maps.google.com/?q=SHIBUYA+SKY)
+- [유라쿠초 가드시타](https://maps.google.com/?q=Yurakucho+Gado+Shita) · [긴자 시마다](https://maps.google.com/?q=銀座しまだ+新橋)
+- [스타벅스 로스터리](https://maps.google.com/?q=Starbucks+Reserve+Roastery+Tokyo) · [Onibus Coffee](https://maps.google.com/?q=Onibus+Coffee+Nakameguro)
+- [T-CAT](https://maps.google.com/?q=Tokyo+City+Air+Terminal+TCAT) · [호텔 이스트21](https://maps.google.com/?q=Hotel+East+21+Tokyo)
+
 ---
 
-*다빈 & 다은의 도쿄 여행*
+*다은 & 다빈의 도쿄 여행*
